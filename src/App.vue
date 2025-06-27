@@ -1,7 +1,8 @@
 <template>
   <div class="app-container">
     <header class="header">
-      <router-link to="/">
+      <router-link to="/Home">
+       
         <img src="/enm_logo.png" alt="Logo" class="logo" />
       </router-link>
     </header>
@@ -14,27 +15,33 @@
      <nav class="bottom-nav">
       <ul class="nav-items">
         <li>
+          <router-link to="/Home">
+            <i class="fa-light fa-house"></i>
+            <span>Accueil</span>
+          </router-link>
+        </li>
+        <li>
           <router-link to="/map">
-            <i class="fa-solid fa-map-location-dot"></i>
-            <span>Carte</span>
+            <i class="fa-light fa-file-lines"></i>
+            <span>Parcours</span>
           </router-link>
         </li>
         <li>
           <router-link to="/qr-codes">
-            <i class="fa-solid fa-qrcode"></i>
-            <span>QR Codes</span>
+            <i class="fa-light fa-expand"></i>
+            <span>Scan</span>
           </router-link>
         </li>
         <li>
           <router-link to="/quiz">
-            <i class="fa-solid fa-book"></i>
-            <span>Histoire</span>
+            <i class="fa-light fa-users"></i>
+            <span>Ecole</span>
           </router-link>
         </li>
         <li>
           <router-link to="/info">
-            <i class="fa-solid fa-circle-info"></i>
-            <span>Infos</span>
+            <i class="fa-light fa-circle-info"></i>
+            <span>A propos</span>
           </router-link>
         </li>
       </ul>
