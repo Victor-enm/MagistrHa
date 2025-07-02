@@ -4,7 +4,6 @@ import QRCodePage from '../pages/QRCodePage.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
-  { path: '/Home', name: 'Home', component: Home },
   { path: '/qr/:id', component: QRCodePage },
 ];
 
