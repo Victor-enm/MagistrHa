@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MtRegular';
+    src: url('./Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'MtMedium';
+    src: url('./Montserrat-Medium.otf');
+}
+@font-face {
+    font-family: 'MtMediumItalic';
+    src: url('./Montserrat-MediumItalic.otf');
+}
+@font-face {
+    font-family: 'MtItalic';
+    src: url('./Montserrat-Italic.otf');
+}
+@font-face {
+    font-family: 'MtSemiBold';
+    src: url('./Montserrat-SemiBold.otf');
+}
+@font-face {
+    font-family: 'ChronicleDisplay';
+    src: url('./Chronicle\ Display\ Semibold.otf');
+}

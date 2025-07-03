@@ -1,29 +1,55 @@
 @import "tailwindcss";
+@import './fonts/fonts.css';
+
+@theme {
+  --color-violet-3: #40173F;
+  --color-violet-2: #CAC7FD;
+  --color-violet-1: #DFDDFD;
+  --color-vert-1: #8EB99F;
+  --color-vert-2: #D4ECDE;
+  --color-rouge-1: #E42413;
+  --color-rouge-2: #FBDEDC;
+  --color-blanc: #FFFFFF;
+  --color-noir: #000000;
+  --color-marron: #D0C7C1;
+  --color-gris-1: #F4F4F4;
+  --color-gris-2: #EAEAEA;
+  --color-gris-5: #BFBFBE;
+  --color-gris-6: #7C7C7B;
+  --color-gris-7: #4D4D4C;
+
+  --font-MtRegular: 'MtRegular', sans-serif;
+  --font-MtMedium: 'MtMedium', sans-serif;
+  --font-MtMediumItalic: 'MtMediumItalic', sans-serif;
+  --font-MtItalic: 'MtItalic', sans-serif;
+  --font-MtSemiBold: 'MtSemiBold', sans-serif;
+  --font-ChronicleDisplay: 'ChronicleDisplay', sans-serif;
+}
 
 @layer base {
     h1 {    
     font-size: 32px;
     line-height: 120%;
-    font-weight: 500;
+    font-family: MtMedium;
     }   
     h2 {    
     font-size: 24px;
     line-height: 120%;
-    font-weight: 500;
+    font-family: MtMedium;
     } 
     h3 {    
     font-size: 20px;
     line-height: 120%;
-    font-weight: 500;
+    font-family: MtMedium;
     } 
     h4 {    
     font-size: 18px;
     line-height: 120%;
-    font-weight: 500;
+    font-family: MtMedium;
     } 
     p {    
     font-size: 16px;
     line-height: 150%;
-    font-weight: regular;
+    font-family: MtRegular;
     } 
 }
