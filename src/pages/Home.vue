@@ -1,27 +1,48 @@
 <template>
+  <div class="relative min-h-screen">
+     <ParallaxHeader
+      imageUrl="/src/assets/Images/banner/Accueil&APropos.jpg"
+      imageAlt="vue aérienne de la cour de l'ENM"
+      height="50vh"
+    />
 
-  <section class="content mb-5">
-   <h1 >    Hello world!  </h1>
-   <h1>    Hello world!  </h1>
-   <h2 >    Hello world!  </h2>
-   <h3 >    Hello world!  </h3>
-   <h4>    Hello world!  </h4>
-   <p>    Hello world!  </p>
-  
+    <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl h-[45vh]">
 
-  <p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus tincidunt ultricies. Pellentesque nibh dui, dignissim accumsan feugiat quis, cursus ut ex. Vivamus pharetra bibendum quam et consectetur. Maecenas euismod metus diam, vitae tempus ligula ultrices id. Nulla rhoncus lorem tellus, at pharetra diam consequat interdum. Nunc bibendum porta lorem, ac maximus odio auctor et. Mauris consectetur risus lacus, id blandit libero pretium id. Donec suscipit quam nulla, nec tempus tellus feugiat sit amet. Cras placerat mi vestibulum turpis posuere tincidunt. Proin et eros tellus. Nullam ultrices neque id ex pharetra, eu aliquam massa vestibulum. Fusce nisi velit, aliquet ac neque luctus, dignissim suscipit dolor. Vivamus varius iaculis ipsum eu congue. Vestibulum porta euismod pulvinar.
+        <h1>Plongez dans l’histoire de l’ENM</h1>
+ 
+   <p>L’École nationale de la magistrature occupe un site historique qui présente la double particularité d’être un lieu de justice depuis plus de cinq siècles en même temps qu’un monument clé de l’histoire de Bordeaux.</p>
 
-Nullam non massa gravida, efficitur libero et, cursus diam. Cras quis eleifend justo, interdum varius mauris. Nunc pulvinar facilisis arcu eu imperdiet. Proin pharetra cursus nisl, quis ultrices dui pretium et. Etiam iaculis lectus at augue venenatis elementum. Maecenas at ipsum vitae mi sollicitudin feugiat at tempor urna. Fusce accumsan at risus vitae sollicitudin. Duis eget nibh diam. Nunc vestibulum erat sit amet turpis pellentesque faucibus.
-
-Sed non lorem convallis, tempor turpis eget, dapibus elit. Vestibulum accumsan, dolor quis pellentesque auctor, orci tortor interdum nulla, quis tempor nibh quam eget nisi. Nulla et porttitor nisi. Proin ac rhoncus dui. Ut imperdiet tempus finibus. Duis faucibus massa sed euismod vehicula. Nunc cursus orci vitae neque laoreet luctus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris quis vulputate erat, eu semper enim.
-
-Nulla bibendum, ante ac tristique vehicula, est risus vestibulum leo, a consectetur velit nisi vitae magna. Suspendisse interdum erat eu neque maximus, sed porttitor metus molestie. Aenean egestas consequat volutpat. Suspendisse vitae dignissim ligula. Donec et interdum augue, a consequat massa. Cras a commodo risus. Aenean sed mi mi. Phasellus sit amet mi orci. Duis non viverra nulla, ac placerat massa. Aliquam vitae sagittis mi, sed vulputate tortor. Phasellus commodo odio arcu, eget bibendum lacus varius sed. Aliquam dapibus finibus sapien eget luctus. Donec metus nibh, interdum at ipsum sed, placerat vestibulum tortor. Aenean nec libero interdum, fermentum metus non, eleifend tortor.
-
-Nam bibendum ornare tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis interdum augue eget tellus gravida, quis venenatis tortor egestas. Fusce ac sapien orci. Nullam et turpis non dolor fermentum porta sit amet id ex. Proin arcu mi, bibendum quis felis sed, convallis mollis tortor. Aliquam a faucibus ante, id mollis nisi. Donec iaculis sollicitudin hendrerit. </p>
+<Bouton
+        label="Commencer votre visite"
+        to="/parcours"
+      />
+      </section>
+      <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
+        <h2>Explorez l'École</h2>
+  <p>Retrouvez sur cette carte de l’ENM les emplacements des 7 QR codes à scanner au fil de votre visite !</p>
 </section>
+<section class="content -mt-5 bg-blanc py-8 px-5 z-10 relative border border-blanc rounded-3xl">
+  <h2>Le parcours de visite</h2>
+  <p>Le parcours est découpé en trois catégories qui abordent chacune des points particuliers de l’École nationale de la magistrature.</p>
+  <h3><span class="float-left"><img src="../assets/icons/Fleche.svg" class="w-8 h-8"/></span>Une école pour une Justice moderne</h3>
+  <p>Découvrez comment l’École nationale de la magistrature a vu le jour, à travers quelques dates clés et événements majeurs. Cette partie vous permet de comprendre les origines et le rôle de cette institution.</p>
+  <h3><span class="float-left"><img src="../assets/icons/Fleche.svg" class="w-8 h-8 left"/></span>Architecture et patrimoine – entre modernité et vestiges du passé</h3>
+  <p>Partez à la découverte des bâtiments de l’École et de leur évolution dans le temps. Certains éléments architecturaux remarquables, comme la Tour de Minimes ou la Tour des Sorcières, vous seront présentés, accompagnés d’anecdotes sur la conception du site.</p>
+  <h3><span class="float-left"><img src="../assets/icons/Fleche.svg" class="w-8 h-8"/></span>Une formation exigeante et humaine</h3>
+  <p>Plongez dans le quotidien de l’École à travers les récits de celles et ceux qui l’ont vécue : élèves magistrats, et visiteurs… Ces témoignages offrent un aperçu vivant et concret de l’expérience au sein de l’institution.</p>
+  <Bouton
+        label="Commencez l'exploration"
+        to="/scan"
+      />
+</section>
+  </div>
 </template>
 
-<script>
+<script setup>
+import Bouton from '../components/bouton.vue';
+import ParallaxHeader from '../components/ParallaxHeader.vue';
+
+
+
 </script>

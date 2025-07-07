@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.11.8",
     "@tailwindcss/vite": "^4.1.11",
     "leaflet": "^1.9.4",
+    "locomotive-scroll": "^4.1.4",
     "pannellum": "^2.5.6",
     "rellax": "^1.12.1",
     "tailwindcss": "^4.1.11",

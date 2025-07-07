@@ -17,10 +17,10 @@
     >
       <span
       :class="{
-        'text-blanc bg-violet-3 rounded-3xl': isActive(item.to),
+        'text-blanc bg-violet-3 ': isActive(item.to),
         'text-gris-6 bg-transparent': !isActive(item.to)
       }"
-      class="flex items-center justify-center w-12 h-8" ><component :is="item.icon" aria-hidden="true"/></span>
+      class="flex items-center justify-center w-12 h-8 rounded-3xl transition-all duration-500 ease-out" ><component :is="item.icon" aria-hidden="true"/></span>
       <span>{{ item.label }}</span>
     </router-link>
   </nav>

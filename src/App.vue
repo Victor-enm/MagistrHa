@@ -1,10 +1,10 @@
 <template>
+  <MobileOnly>
   <div class="min-h-screen flex flex-col">
-    <main class="flex-1 pb-24 px-4">
-      <router-view />
-    </main>
-    <NavBarre />
+    <router-view />
+    <NavBarre class="sticky bottom-0 z-50" />
   </div>
+  </MobileOnly>
 </template>
 
 <script>
