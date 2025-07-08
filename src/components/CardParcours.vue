@@ -1,10 +1,16 @@
 <template>
   <div class="border border-violet-3 rounded-xl bg-blanc w-76 snap-start overflow-hidden"
   style="box-shadow: 6px 6px 0 #CAC7FD;">
-    <div class="mb-4 relative ">
-        <img src="../assets/Images/banner/Accueil&APropos.jpg" class="object-cover h-50"/>
+  <router-link
+  :to="link">
+    <div class="mb-4 relative w-full overflow-hidden">
+        <img 
+        :src='img'
+        :alt='alt'
+        class="object-cover h-50 w-full"
+        />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
-            <img src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end" alt="fleche rouge"/>
+            <img src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end object-cover" alt="fleche rouge"/>
             <p class="">{{ position }}</p>
         </div>
     </div>
@@ -15,7 +21,7 @@
         </div>
     </div>
     
-    
+    </router-link>
   </div>
 </template>
 
@@ -23,5 +29,8 @@
 defineProps({
   title: String,
   position: String,
+  img: String,
+  alt: String,
+  link: String,
 })
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Accueil&APropos.jpg"
+      imageUrl="/src/assets/Images/banner/Accueil&APropos.webp"
       imageAlt="vue aérienne de la cour de l'ENM"
       height="30vh"
     />
