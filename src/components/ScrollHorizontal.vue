@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-x-auto whitespace-nowrap scrollbar-hide mb-10">
+  <div class="overflow-x-auto whitespace-nowrap scrollbar-hide mb-10 mt-4">
     <div class="inline-flex gap-4 mb-2 snap-x snap-mandatory h-auto">
       <slot />
     </div>

@@ -1,12 +1,28 @@
 <template>
-  <div class="rounded-xl bg-noir text-blanc p-4 w-64 snap-start">
-    <h3 class="text-lg font-bold uppercase tracking-wide">{{ label }}</h3>
-    <slot />
-  </div>
+  <div class=" w-60 snap-start ">
+  <div style="box-shadow: 6px 6px 0 #CAC7FD;" class="overflow-hidden border border-violet-3 rounded-xl">
+    <div class="relative w-full overflow-hidden">
+        <img 
+        :src='img'
+        :alt='alt'
+        class="object-cover h-60 w-full"
+        />
+    </div>
+    </div>
+    <div class="mt-1">
+        <div class="flex items-center gap-1 whitespace-normal">
+            <img src="../assets/icons/Fleche.svg" class="w-7.5 h-7.5 shrink-0 self-start" alt="fleche rouge"/>
+            <p class="mt-0 block min-w-0 w-full break-words leading-snug flex-1 font-MtItalic text-base">{{ nom }}</p>
+        </div>
+    </div>
+    </div>
+
 </template>
 
 <script setup>
 defineProps({
-  label: String
+  nom: String,
+  img: String,
+  alt: String,
 })
 </script>

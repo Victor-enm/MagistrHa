@@ -10,14 +10,14 @@
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
-            <img src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end object-cover" alt="fleche rouge"/>
-            <p class="">{{ position }}</p>
+            <localisation src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end object-cover" alt="Pin localisation"/>
+            <p class="mt-0">{{ position }}</p>
         </div>
     </div>
     <div class="px-4 pb-4">
         <div class="flex items-start justify-between gap-6 whitespace-normal">
             <h4 class="mt-0 block min-w-0 w-full break-words leading-snug flex-1 ">{{ title }}</h4>
-            <img src="../assets/icons/Fleche.svg" class="w-8 h-8 shrink-0 self-start" alt="fleche rouge"/>
+            <Fleche class="w-8 h-8 shrink-0 self-start text-rouge-1" alt="fleche rouge"/>
         </div>
     </div>
     
@@ -26,6 +26,9 @@
 </template>
 
 <script setup>
+import Fleche from '../assets/icons/Fleche.svg'
+import Localisation from '../assets/icons/Localisation.svg'
+
 defineProps({
   title: String,
   position: String,
@@ -33,4 +36,5 @@ defineProps({
   alt: String,
   link: String,
 })
+
 </script>
