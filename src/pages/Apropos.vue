@@ -18,7 +18,7 @@
         <h2>Mentions légales</h2>
         <p class="italic underline"><router-link to="/">Politique de confidentiaité</router-link></p>
         <p class="italic underline"><router-link to="/">Conditions d'utilisaation</router-link></p>
-        <p class="italic underline"><router-link to="/">Paramètres des cookies</router-link></p>
+        <p class="italic underline"><a href="#tarteaucitron">Paramètres des cookies</a></p>
     </section>
       
   </div>

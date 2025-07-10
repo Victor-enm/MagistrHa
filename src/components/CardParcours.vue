@@ -10,7 +10,7 @@
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
-            <localisation src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end object-cover" alt="Pin localisation"/>
+            <Localisation class="w-6 h-6 shrink-0 self-end object-cover" alt="Pin localisation"/>
             <p class="mt-0">{{ position }}</p>
         </div>
     </div>
