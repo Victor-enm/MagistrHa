@@ -16,8 +16,9 @@
         <h2>Numéro de téléphone</h2>
             <a href="tel:0556001010">05 56 00 10 10</a>
         <h2>Mentions légales</h2>
-        <p class="italic underline"><router-link to="/">Politique de confidentiaité</router-link></p>
-        <p class="italic underline"><router-link to="/">Conditions d'utilisaation</router-link></p>
+        <p class="italic underline"><router-link to="/legales/mentions-legales">Mentions légales</router-link></p>
+        <p class="italic underline"><router-link to="/legales/accessibilite">Accessibilité</router-link></p>
+        <p class="italic underline"><router-link to="/legales/politique-de-confidentialite">Politique de confidentiaité</router-link></p>
         <p class="italic underline"><a href="#tarteaucitron">Paramètres des cookies</a></p>
     </section>
       

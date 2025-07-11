@@ -11,6 +11,11 @@ import MonumentAuxMorts from '../pages/PagesQrCodes/MonumentAuxMorts.vue';
 import Bassin from '../pages/PagesQrCodes/Bassin.vue';
 import Amphitheatre from '../pages/PagesQrCodes/Amphitheatre.vue';
 import SalleDesPasPerdus from '../pages/PagesQrCodes/SalleDesPasPerdus.vue';
+import Accessibilite from '../pages/PagesLegales/Accessibilite.vue';
+import MentionsLegales from '../pages/PagesLegales/MentionsLegales.vue';
+import PolitiqueConfidentialite from '../pages/PagesLegales/PolitiqueConfidentialite.vue';
+import Erreur from '../pages/404.vue'
+
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -25,6 +30,10 @@ const routes = [
   { path: '/qr/bassin', name:'Le Bassin', component: Bassin},
   { path: '/qr/amphitheatre', name:'Amphithéâtre Simone Veille', component: Amphitheatre},
   { path: '/qr/salle-des-pas-perdus', name:'Salle des pas perdus', component: SalleDesPasPerdus},
+  { path: '/legales/accessibilite', name:'Accessibilité', component: Accessibilite},
+  { path: '/legales/mentions-legales', name:'Mentions légales', component: MentionsLegales},
+  { path: '/legales/politique-de-confidentialite', name:'Politique confidentialité', component: PolitiqueConfidentialite},
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: Erreur},
 ];
 
 const router = createRouter({
