@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Minimes.webp"
+      :imageUrl="Minimes"
       imageAlt="vue sur la tour des Minimes avec le bassin"
       height="30vh"
     />
@@ -31,7 +31,7 @@
         <p>En 1835, une grande partie très dégradée du fort est rasée : le corps de logis, le grand donjon, les façades, les échauguettes… Seules les deux tours actuelles sont épargnées. </p>
         <p>Sur l’espace libéré, une nouvelle prison conçue par l’architecte Thiac est inaugurée le 19 novembre 1846. Inspirée du modèle « pennsylvanien » américain, elle impose l’isolement total des détenus, censé favoriser la réflexion sur leurs actes. Par extension, on parle aussi « d’architecture panoptique » pour ce type de prison.</p>
         <ImageViolet
-        img="/src/assets/Images/generales/Prison.webp"
+        :img="Prison"
         alt="Photo de l'ancienne prison" 
         />
         <p>Les 150 cellules, réparties autour d’une rotonde chauffée par un unique poêle, étaient prévues pour 230 détenus, mais en accueilleront jusqu’à 560. Innovation notable, un quartier des femmes de 90 cellules, organisé autour d’une cour, est intégré à l’ensemble. </p>
@@ -52,14 +52,23 @@
 </template>
 
 <script setup>
+import Francois from '@/assets/Images/Portraits/François-Armand_de_Saige.webp'
+import Raymond from '@/assets/Images/Portraits/Raymond-de-Seze.webp'
+import Edouard from '@/assets/Images/Portraits/Édouard_Daladier.webp'
+import George from '@/assets/Images/Portraits/Georges Mandel.webp'
+import Minimes from '@/assets/Images/banner/Minimes.webp'
+import Prison from '@/assets/Images/generales/Prison.webp'
+
+
+
 const cardsPersonnage1 = [
-  { nom: 'François-Armand de Saige 1734 - 1793', img: '/src/assets/Images/Portraits/François-Armand_de_Saige.webp', alt: 'Photo ou illustration de François-Armand de Saige'},
-  { nom: 'Raymond de Sèze, 1748 - 1828', img: '/src/assets/Images/Portraits/Raymond-de-Seze.webp', alt: 'Photo ou illustration de Raymond de Sèze'},
+  { nom: 'François-Armand de Saige 1734 - 1793', img: Francois, alt: 'Photo ou illustration de François-Armand de Saige'},
+  { nom: 'Raymond de Sèze, 1748 - 1828', img: Raymond, alt: 'Photo ou illustration de Raymond de Sèze'},
 ]
 
 const cardsPersonnage2 = [
-  { nom: 'Édouard Daladier, 1884 - 1970', img: '/src/assets/Images/Portraits/Édouard_Daladier.webp', alt: 'Photo ou illustration de Édouard Daladier'},
-  { nom: 'Georges Mandel, 1885 - 1944', img: '/src/assets/Images/Portraits/Georges Mandel.webp', alt: 'Photo ou illustration de Georges Mandel'},
-  { nom: 'Prince Louis Napoléon Bonaparte 1856 - 1879', img: '/src/assets/Images/Portraits/', alt: 'Photo ou illustration de Louis Napoléon Bonaparte'},
+  { nom: 'Édouard Daladier, 1884 - 1970', img: Edouard, alt: 'Photo ou illustration de Édouard Daladier'},
+  { nom: 'Georges Mandel, 1885 - 1944', img: George, alt: 'Photo ou illustration de Georges Mandel'},
+  { nom: 'Prince Louis Napoléon Bonaparte 1856 - 1879', img: "Napoleon", alt: 'Photo ou illustration de Louis Napoléon Bonaparte'},
 ]
 </script>

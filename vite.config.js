@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 import Components from 'unplugin-vue-components/vite'
 import svgLoader from 'vite-svg-loader'
+import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,5 +17,10 @@ export default defineConfig({
       deep: true, // cherche aussi dans les sous-dossiers
       dts: false, // tu peux mettre true si tu veux générer un fichier de types
     }),
-  ],  
+  ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  }  
 })

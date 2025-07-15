@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      :imageUrl="Accueil"
+      :imageUrl="accueilImage"
       imageAlt="vue aérienne de la cour de l'ENM"
       height="50vh"
     />
@@ -88,42 +88,49 @@ import Plan from '../assets/Images/Illustrations/Plan.svg';
 import IconQrActif from '../assets/icons/Plan-Actif.svg';
 import IconQrInactif from '../assets/icons/Plan-Inactif.svg';
 import CardHome from '../components/CardHome.vue';
-import Accueil from '@/assets/Images/banner/Bassin.webp'
+import accueilImage from '@/assets/Images/banner/Accueil&APropos.webp'
+import Entree from '@/assets/Images/banner/EntreeDeLecole.webp'
+import Monument from '@/assets/Images/banner/Monument-aux-morts.webp'
+import Minimes from '@/assets/Images/banner/Minimes.webp'
+import Bassin from '@/assets/Images/banner/Bassin.webp'
+import Amphi from '@/assets/Images/banner/Amphi.webp'
+import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
+import Sorciere from '@/assets/Images/banner/Sorciere.webp'
 
 const pins = ref([
   { id: 1, x: 120, y: 385, active:true,
     title: 'Entrée de l’École', etape: '01',
-    img: '/src/assets/Images/banner/EntreeDeLecole.webp', alt: 'Entrée de l ecole',
+    img: Entree, alt: 'Entrée de l ecole',
     link: '/qr/entree-de-l-ecole'
    }, //entrée
   { id: 2, x: 138, y: 290, active:false,
     title: 'Monuments aux morts', etape: '04',
-    img: '/src/assets/Images/banner/Monument-aux-morts.webp', alt: 'Monuments aux morts',
+    img: Monument, alt: 'Monuments aux morts',
     link: '/qr/monument-aux-morts'
    }, //monument aux morts
   { id: 3, x: 220, y: 265, active:false,
     title: 'Tour des Minimes', etape: '03',
-    img: '/src/assets/Images/banner/Minimes.webp', alt: 'Tour des Minimes',
+    img: Minimes, alt: 'Tour des Minimes',
     link: '/qr/tour-des-minimes'
    }, //tour des minimes
   { id: 4, x: 128, y: 205, active:false,
     title: 'Le bassin', etape: '05',
-    img: '/src/assets/Images/banner/Bassin.webp', alt: 'Le bassin',
+    img: Bassin, alt: 'Le bassin',
     link: '/qr/bassin'
    }, //bassin
   { id: 5, x: 55, y: 135, active:false,
     title: 'Amphithéâtre Simone Veil', etape: '06',
-    img: '/src/assets/Images/banner/Amphi.webp', alt: 'Amphithéâtre Simone Veil',
+    img: Amphi, alt: 'Amphithéâtre Simone Veil',
     link: '/qr/amphitheatre'
    }, //amphitheatre
   { id: 6, x: 85  , y: 35, active:false,
     title: 'Salle des pas perdus', etape: '07',
-    img: '/src/assets/Images/banner/Salle-des-pas-perdus.webp', alt: 'Salle des pas perdus',
+    img: Salle, alt: 'Salle des pas perdus',
     link: '/qr/salle-des-pas-perdus'
    }, //salle des pas perdus
   { id: 7, x: 325, y: 60, active:false,
     title: 'Tour des sorcières', etape: '02',
-    img: '/src/assets/Images/banner/Sorciere.webp', alt: 'Tour des sorcières',
+    img: Sorciere, alt: 'Tour des sorcières',
     link: '/qr/tour-des-sorcieres'
    }, //tour des sorcières
 ])

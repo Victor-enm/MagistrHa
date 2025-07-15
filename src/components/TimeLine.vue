@@ -5,7 +5,7 @@
 
     <!-- Point rouge SVG centré sur la ligne -->
     <div class="absolute left-2 top-8 z-10 w-4 h-4">
-      <img src="../../src/assets/icons/Puce.svg" alt="" class="w-4 h-4" />
+      <Puce alt="" class="w-4 h-4" />
     </div>
 
     <!-- Contenu texte -->
@@ -22,6 +22,7 @@
 
 <script setup>
 import ImageViolet from './ImageViolet.vue';
+import Puce from '@/assets/icons/Puce.svg'
 
 defineProps({
   titre: String,

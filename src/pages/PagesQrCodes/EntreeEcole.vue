@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/EntreeDeLecole.webp"
+      :imageUrl="Entree"
       imageAlt="vue aérienne de l'entrée de l'ENM"
       height="30vh"
     />
@@ -16,7 +16,7 @@
             <h2>1456</h2>
             <p>L’histoire du site débute au XVe siècle : c’est en 1456, sur ordre du roi Charles VII, que commence la construction du fort du Hâ, une imposante forteresse destinée à défendre la ville après la fin de la guerre de Cent Ans. </p>
             <ImageViolet
-            img="/src/assets/Images/generales/Fort-1456.webp"
+            :img="Fort"
             alt="Fort du Hâ en 1456"
             />
             <p>Au fil des siècles, le fort se transforme : palais ducal, prison, tribunal, puis enfin école nationale. Aujourd’hui, il incarne l’alliance de l’excellence et de la pédagogie, du patrimoine et de l’architecture contemporaine, unissant l’histoire et la modernité au service de la justice française.</p>
@@ -61,13 +61,16 @@
 </template>
 
 <script setup>
-import BulletFleche from '../../components/BulletFleche.vue';
-import EncartViolet from '../../components/EncartViolet.vue';
-import TimeLine from '../../components/TimeLine.vue';
+import BulletFleche from '@/components/BulletFleche.vue';
+import EncartViolet from '@/components/EncartViolet.vue';
+import TimeLine from '@/components/TimeLine.vue';
+import Entree from '@/assets/Images/banner/EntreeDeLecole.webp';
+import Tribunal from '@/assets/Images/generales/Tribunal.webp';
+import Fort from '@/assets/Images/generales/Fort-1456.webp';
 
 const timeline = [
   { titre: 'Milieu du XIXᵉ siècle', description: 'La cour d’appel de Bordeaux, installée dans un palais de justice néoclassique conçu par Joseph-Adolphe Thiac ' },
   { titre: '1972', description: 'l’École nationale de la magistrature (ENM), imaginée par l’architecte Guillaume Gillet, Grand Prix de Rome, et inaugurée le 12 décembre 1972 ' },
-  { titre: '1998', description: 'Le Tribunal Judiciaire inauguré en 1998, œuvre contemporaine de Lord Richard Rogers, célèbre pour sa participation à la construction du Centre Pompidou à Paris.', img: '/src/assets/Images/generales/Tribunal.webp' },
+  { titre: '1998', description: 'Le Tribunal Judiciaire inauguré en 1998, œuvre contemporaine de Lord Richard Rogers, célèbre pour sa participation à la construction du Centre Pompidou à Paris.', img: Tribunal },
 ]
 </script>

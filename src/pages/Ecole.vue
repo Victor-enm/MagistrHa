@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Lecole.webp"
+      :imageUrl="Ecole"
       imageAlt="vue aérienne de la cour de l'ENM"
       height="30vh"
     />
@@ -62,6 +62,7 @@ import BulletFleche from '../components/BulletFleche.vue';
 import EncartRouge from '../components/EncartRouge.vue';
 import ImageViolet from '../components/ImageViolet.vue';
 import ParallaxHeader from '../components/ParallaxHeader.vue';
+import Ecole from '@/assets/Images/banner/Lecole.webp'
 
 
 

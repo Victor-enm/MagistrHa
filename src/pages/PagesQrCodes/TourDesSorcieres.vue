@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Sorciere.webp"
+      :imageUrl="Sorciere"
       imageAlt="vue d'ensemble avec la tour des sorcières"
       height="30vh"
     />
@@ -16,7 +16,7 @@
             <p>Bordeaux, longtemps favorable à l’Angleterre, est alors reprise par les Français, et le roi Charles VII (dit le Victorieux) ordonne l’édification de deux forteresses pour contrôler la ville et prévenir toute nouvelle attaque extérieure : le château Trompette au nord de la ville (actuelle place des Quinconces) et le fort du Hâ au sud-ouest.</p>
             <CardPersonnage
             nom="Charles VII, 1403 - 1461"
-            img="/src/assets/Images/Portraits/CharlesVII.webp"
+            :img="CharlesVII"
             alt="Illustration de Charles 7"
             class="mt-4"
             />
@@ -34,7 +34,7 @@
       <h2>La tour des Anglais</h2>
         <p>Tournée vers la campagne, est reconnaissable à sa forme élancée, en fer à cheval, ses mâchicoulis et ses arbalétrières. Elle permettait de surveiller d’éventuels retours ennemis.</p>
         <ImageViolet
-        img="/src/assets/Images/banner/Sorciere.webp"
+        :img="Sorciere"
         alt="Zoom sur la tour des sorcières" 
         />
 
@@ -44,8 +44,8 @@
     <h2>La tour des Minimes</h2>
     <p>Massive et circulaire, était la clé du dispositif défensif, avec deux niveaux d’artillerie couvrant en enfilade les rues adjacentes. Couronnée d'un chemin de ronde avec tourelle, haute de 18m, composée d’embrasures casematées reliées par 2 salles hexagonales voûtées, elle commandait la ville et prévenait toute révolte de la population. </p>
     <ImageViolet
-    img="/src/assets/Images/banner/Minimes.webp"
-    alt="" 
+    :img="Minimes"
+    alt="Vue de la tour des minimes" 
     />
     <p>Remaniée par Gillet dans les années 1970, la tour est encore utilisée aujourd’hui, avec le salon d’honneur au 1er niveau et une salle d’audience pédagogique grandeur nature, l’une des rares en France, au niveau supérieur.</p>
     <EncartViolet>
@@ -56,15 +56,11 @@
 </template>
 
 <script setup>
-import BulletFleche from '../../components/BulletFleche.vue';
-import CardPersonnage from '../../components/CardPersonnage.vue';
-import EncartViolet from '../../components/EncartViolet.vue';
-import ImageViolet from '../../components/ImageViolet.vue';
-import TimeLine from '../../components/TimeLine.vue';
-
-const timeline = [
-  { titre: 'Milieu du XIXᵉ siècle', description: 'La cour d’appel de Bordeaux, installée dans un palais de justice néoclassique conçu par Joseph-Adolphe Thiac ' },
-  { titre: '1972', description: 'l’École nationale de la magistrature (ENM), imaginée par l’architecte Guillaume Gillet, Grand Prix de Rome, et inaugurée le 12 décembre 1972 ' },
-  { titre: '1998', description: 'Le Tribunal Judiciaire inauguré en 1998, œuvre contemporaine de Lord Richard Rogers, célèbre pour sa participation à la construction du Centre Pompidou à Paris.', img: '/src/assets/Images/generales/Tribunal.webp' },
-]
+import BulletFleche from '@/components/BulletFleche.vue';
+import CardPersonnage from '@/components/CardPersonnage.vue';
+import EncartViolet from '@/components/EncartViolet.vue';
+import ImageViolet from '@/components/ImageViolet.vue';
+import Sorciere from '@/assets/Images/banner/Sorciere.webp'
+import Minimes from '@/assets/Images/banner/Minimes.webp'
+import CharlesVII from '@/assets/Images/Portraits/CharlesVII.webp'
 </script>

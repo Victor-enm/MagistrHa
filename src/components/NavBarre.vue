@@ -28,11 +28,11 @@
 
 <script setup>
 import { useRoute } from 'vue-router'
-import home from '../../src/assets/icons/Home.svg'
-import parcours from '../../src/assets/icons/Parcours.svg'
-import qr from '../../src/assets/icons/QR.svg'
-import Ecole from '../../src/assets/icons/École.svg'
-import Infos from '../../src/assets/icons/Infos.svg'
+import home from '@/assets/icons/Home.svg'
+import parcours from '@/assets/icons/Parcours.svg'
+import qr from '@/assets/icons/QR.svg'
+import Ecole from '@/assets/icons/École.svg'
+import Infos from '@/assets/icons/Infos.svg'
 
 const route = useRoute()
 

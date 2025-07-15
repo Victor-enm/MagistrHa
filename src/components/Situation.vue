@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-between items-center self-center mb-8">
     <div class="flex bottom-0">
-        <img src="../assets/icons/Localisation.svg" class="w-6 h-6 shrink-0 self-end object-cover" alt="fleche rouge"/>
+        <Localisation class="w-6 h-6 shrink-0 self-end object-cover" alt="icone localisation"/>
         <p class="">{{ position }}</p>
     </div>
     <p>
@@ -11,6 +11,8 @@
 </template>
 
 <script setup>
+import Localisation from '@/assets/icons/Localisation.svg'
+
 defineProps({
   position: String,
   etape: String,

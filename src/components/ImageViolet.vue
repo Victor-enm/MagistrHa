@@ -12,7 +12,7 @@
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-20 right-35 px-2 py-1 rounded-full bg-blanc mr-2 mb-2">
-            <img src="../assets/icons/Play.svg" class="w-8 h-8 shrink-0 self-end object-cover" alt="icone player"/>
+            <Play class="w-8 h-8 shrink-0 self-end object-cover" alt="icone player"/>
         </div>
     </div>    
     </a>
@@ -28,6 +28,9 @@
 </template>
 
 <script setup>
+import Play from '@/assets/icons/Play.svg'
+
+
 defineProps({
   img: String,
   alt: String,

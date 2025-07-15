@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Bassin.webp"
+      :imageUrl="Bassin"
       imageAlt="vue sur le bassin au centre de la cour de l'ENM"
       height="30vh"
     />
@@ -20,7 +20,7 @@
 
             <CardPersonnage
             nom="Guillaume Gillet, 1912 - 1987"
-            img="/src/assets/Images/Portraits/Guillaume Gillet.webp"
+            :img="Gillet"
             alt="Photo de l'architecte Guillaume Gillet"
             class="mt-4"
             />
@@ -37,7 +37,7 @@
       <p> Au cœur de l’École, une vaste salle des pas perdus permet la liaison entre les différentes parties du bâtiment ; à l’instar de celles des palais de justice elle est un lieu de rencontres, de débats, de discussion et de déambulation de « l’académie socratique » définie par Gillet. </p>
 
       <ImageViolet 
-      img="/src/assets/Images/banner/Salle-des-pas-perdus.webp"
+      :img="Salle"
       alt="Vue de l'intérieur de l'ENM donnant sur le hall et la salle des pas perdus"
       />
 
@@ -53,7 +53,7 @@
       <p>Prévue initialement pour 100 auditeurs de justice, l’ENM devient rapidement trop exiguë. En parallèle de la construction du nouveau palais de justice, des travaux d’extension et de modernisation sont réalisés entre 1994 et 1996 par l’architecte Richard Rogers, connu pour avoir coréalisé le centre Pompidou à Paris. </p>
       <CardPersonnage
       nom="Richard Rogers, 1933 - 2021"
-      img="/src/assets/Images/Portraits/Richard_Rogers.webp"
+      :img="Richard"
       alt="Richard Rogers"
       />
       <EncartViolet>
@@ -80,23 +80,17 @@
 </template>
 
 <script setup>
-import CardPersonnage from '../../components/CardPersonnage.vue';
-import EncartGris from '../../components/EncartGris.vue';
-import EncartViolet from '../../components/EncartViolet.vue';
-import ImageViolet from '../../components/ImageViolet.vue';
-import TourDesAnglais from '../../assets/Images/Illustrations/TourDesAnglais.svg'
-import TourDesMinimes from '../../assets/Images/Illustrations/TourDesMinimes.svg'
-import BassinMinimes from '../../assets/Images/Illustrations/Bassin+Minimes.svg'
+import CardPersonnage from '@/components/CardPersonnage.vue';
+import EncartGris from '@/components/EncartGris.vue';
+import EncartViolet from '@/components/EncartViolet.vue';
+import ImageViolet from '@/components/ImageViolet.vue';
+import TourDesAnglais from '@/assets/Images/Illustrations/TourDesAnglais.svg'
+import TourDesMinimes from '@/assets/Images/Illustrations/TourDesMinimes.svg'
+import BassinMinimes from '@/assets/Images/Illustrations/Bassin+Minimes.svg'
+import Richard from '@/assets/Images/Portraits/Richard_Rogers.webp'
+import Bassin from '@/assets/Images/banner/Bassin.webp'
+import Gillet from '@/assets/Images/Portraits/Guillaume Gillet.webp'
+import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
 
 
-const cardsPersonnage1 = [
-  { nom: 'François-Armand de Saige 1734 - 1793', img: '/src/assets/Images/Portraits/François-Armand_de_Saige.webp', alt: 'Photo ou illustration de François-Armand de Saige'},
-  { nom: 'Raymond de Sèze, 1748 - 1828', img: '/src/assets/Images/Portraits/Raymond-de-Seze.webp', alt: 'Photo ou illustration de Raymond de Sèze'},
-]
-
-const cardsPersonnage2 = [
-  { nom: 'Édouard Daladier, 1884 - 1970', img: '/src/assets/Images/Portraits/Édouard_Daladier.webp', alt: 'Photo ou illustration de Édouard Daladier'},
-  { nom: 'Georges Mandel, 1885 - 1944', img: '/src/assets/Images/Portraits/Georges Mandel.webp', alt: 'Photo ou illustration de Georges Mandel'},
-  { nom: 'Prince Louis Napoléon Bonaparte 1856 - 1879', img: '/src/assets/Images/Portraits/', alt: 'Photo ou illustration de Louis Napoléon Bonaparte'},
-]
 </script>

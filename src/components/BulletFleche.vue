@@ -5,5 +5,5 @@
   </li>
 </template>
 <script setup>
-import Fleche from '../assets/icons/Fleche.svg'
+import Fleche from '@/assets/icons/Fleche.svg'
 </script>

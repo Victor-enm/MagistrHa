@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Accueil&APropos.webp"
+      :imageUrl="Banner"
       imageAlt="vue aérienne de la cour de l'ENM"
       height="30vh"
     />
@@ -28,6 +28,7 @@
 <script setup>
 import Bouton from '../components/bouton.vue';
 import ParallaxHeader from '../components/ParallaxHeader.vue';
+import Banner from '@/assets/Images/banner/Accueil&APropos.webp'
 
 
 

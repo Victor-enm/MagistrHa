@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Amphi.webp"
+      :imageUrl="Banner"
       imageAlt="vue de l'intérieur de lAmphithéâtre Simone Veil pendant un cours"
       height="30vh"
     />
@@ -45,7 +45,7 @@
       
       <CardPersonnage
       nom="Simone Veil, 1927 - 2017"
-      img="/src/assets/Images/Portraits/Simone Veil.webp"
+      :img="SimoneVeil"
       alt="Photo de Simone Veil"
       />
       <p>Déportée à 16 ans à Auschwitz-Birkenau, Simone Veil survit aux camps de concentration avant de réussir le concours de la magistrature en 1956.</p>
@@ -61,25 +61,16 @@
 </template>
 
 <script setup>
-import CardPersonnage from '../../components/CardPersonnage.vue';
-import EncartGris from '../../components/EncartGris.vue';
-import EncartViolet from '../../components/EncartViolet.vue';
-import ImageViolet from '../../components/ImageViolet.vue';
-import TourDesAnglais from '../../assets/Images/Illustrations/TourDesAnglais.svg'
-import TourDesMinimes from '../../assets/Images/Illustrations/TourDesMinimes.svg'
-import BassinMinimes from '../../assets/Images/Illustrations/Bassin+Minimes.svg'
-import BulletFleche from '../../components/BulletFleche.vue';
-import Bouton from '../../components/bouton.vue';
+import CardPersonnage from '@/components/CardPersonnage.vue';
+import EncartGris from '@/components/EncartGris.vue';
+import EncartViolet from '@/components/EncartViolet.vue';
+import ImageViolet from '@/components/ImageViolet.vue';
+import TourDesAnglais from '@/assets/Images/Illustrations/TourDesAnglais.svg'
+import TourDesMinimes from '@/assets/Images/Illustrations/TourDesMinimes.svg'
+import BassinMinimes from '@/assets/Images/Illustrations/Bassin+Minimes.svg'
+import BulletFleche from '@/components/BulletFleche.vue';
+import Bouton from '@/components/bouton.vue';
+import Banner from '@/assets/Images/banner/Amphi.webp'
+import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp'
 
-
-const cardsPersonnage1 = [
-  { nom: 'François-Armand de Saige 1734 - 1793', img: '/src/assets/Images/Portraits/François-Armand_de_Saige.webp', alt: 'Photo ou illustration de François-Armand de Saige'},
-  { nom: 'Raymond de Sèze, 1748 - 1828', img: '/src/assets/Images/Portraits/Raymond-de-Seze.webp', alt: 'Photo ou illustration de Raymond de Sèze'},
-]
-
-const cardsPersonnage2 = [
-  { nom: 'Édouard Daladier, 1884 - 1970', img: '/src/assets/Images/Portraits/Édouard_Daladier.webp', alt: 'Photo ou illustration de Édouard Daladier'},
-  { nom: 'Georges Mandel, 1885 - 1944', img: '/src/assets/Images/Portraits/Georges Mandel.webp', alt: 'Photo ou illustration de Georges Mandel'},
-  { nom: 'Prince Louis Napoléon Bonaparte 1856 - 1879', img: '/src/assets/Images/Portraits/', alt: 'Photo ou illustration de Louis Napoléon Bonaparte'},
-]
 </script>

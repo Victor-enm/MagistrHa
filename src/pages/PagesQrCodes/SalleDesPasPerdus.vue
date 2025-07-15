@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Salle-des-pas-perdus.webp"
+      :imageUrl="Salle"
       imageAlt="vue en hauteur sur la salle des pas perdus équivalent au hall"
       height="30vh"
     />
@@ -25,21 +25,21 @@
     <p>L’ENM dispose également d’un second site historique sur l’île de la Cité à Paris, dans un bâtiment du XIXe siècle, situé entre le quai aux fleurs et la rue chanoinesse, qui accueillait autrefois l’état-major des pompiers de Paris. </p>
 
     <ImageViolet
-    img="/src/assets/Images/generales/ENM-Paris.webp"
+    :img="Paris"
     alt="Photo du batiment de l'ENM Paris"
     />
     <p>À la suite des annonces de l’État d’un recrutement historique de +1500 magistrats supplémentaire d’ici à 2027, l’ENM a inauguré en 2024 deux nouveaux bâtiments. </p>
     <p>A Bordeaux, boulevard Godard ; le site Archipel, qui accueille la moitié des auditeurs de justice de chaque promotion, est conçu pour porter une attention particulière à l’écologie et à la lumière naturelle.</p>
 
     <ImageViolet
-    img="/src/assets/Images/generales/SiteArchipel.webp"
+    :img="Archipel"
     alt="Photo du deuxième site Bordelais 'Archipel'"
     />
 
     <p>À Montreuil, le site Arborial, offre des espaces de formation modernes, spacieux et adaptés pour la formation continue, et la formation des publics spécialisés.</p>
 
     <ImageViolet
-    img="/src/assets/Images/generales/Arborial.webp"
+    :img="Arborial"
     alt="Photo du second site Parisien, Arborial"
     />
            
@@ -49,10 +49,14 @@
 </template>
 
 <script setup>
-import BulletFleche from '../../components/BulletFleche.vue';
-import EncartViolet from '../../components/EncartViolet.vue';
-import ImageViolet from '../../components/ImageViolet.vue';
-import TimeLine from '../../components/TimeLine.vue';
+import BulletFleche from '@/components/BulletFleche.vue';
+import EncartViolet from '@/components/EncartViolet.vue';
+import ImageViolet from '@/components/ImageViolet.vue';
+import TimeLine from '@/components/TimeLine.vue';
+import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
+import Paris from '@/assets/Images/generales/ENM-Paris.webp'
+import Archipel from '@/assets/Images/generales/SiteArchipel.webp'
+import Arborial from '@/assets/Images/generales/Arborial.webp'
 
 const timeline = [
   { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité. ' },

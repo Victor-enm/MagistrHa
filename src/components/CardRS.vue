@@ -8,11 +8,11 @@
     </div>
 </template>
 <script setup>
-import Instagram from '../assets/icons/Instagram.svg'
-import Linkedin from '../assets/icons/Linkedin.svg'
-import Facebook from '../assets/icons/Facebook.svg'
-import X from '../assets/icons/X.svg'
-import Youtube from '../assets/icons/Youtube.svg'
+import Instagram from '@/assets/icons/Instagram.svg'
+import Linkedin from '@/assets/icons/Linkedin.svg'
+import Facebook from '@/assets/icons/Facebook.svg'
+import X from '@/assets/icons/X.svg'
+import Youtube from '@/assets/icons/Youtube.svg'
 
 
 </script>

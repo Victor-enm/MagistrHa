@@ -1,6 +1,6 @@
 <template>
   <div id="map-container">
-    <img src="../assets/Plan_ENM_Bordeauxv2.png" alt="Plan" id="map-image" />
+    <img :src="Map" alt="Plan" id="map-image" />
     <!-- Points -->
     <div
       class="point"
@@ -28,6 +28,8 @@
 </template>
 
 <script>
+import Map from '@/assets/Plan_ENM_Bordeauxv2.png'
+
 export default {
   data() {
     return {

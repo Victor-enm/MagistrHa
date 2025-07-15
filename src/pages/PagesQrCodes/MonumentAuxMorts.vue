@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Monument-aux-morts.webp"
+      :imageUrl="Monument"
       imageAlt="Monument aux morts"
       height="30vh"
     />
@@ -23,7 +23,7 @@
             <p>Un monument en granit gris, érigé en 1985 dans la cour du fort, adossé à la tour des Minimes, commémore ces victimes et abrite des cendres recueillies dans les camps de concentration.</p>
 
             <ImageViolet
-            img="/src/assets/Images/generales/MonumentAuxMorts.webp"
+            :img="Monument"
             alt="Zoom sur l'inscription du monument aux morts" 
             />
             <p>Une plaque rappelle :</p>
@@ -35,7 +35,7 @@
     <EncartViolet>
         <p>L’odyssée du « train fantôme » débute à Toulouse le 3 juillet 1944. Près de 550 prisonniers juifs, résistants, réfugiés espagnols et italiens y sont entassés. </p>
         <ImageViolet
-            img="/src/assets/Images/generales/Train.webp"
+            :img="Train"
             alt="Photo/Illustration du départ du train fantôme" 
             style="box-shadow: 6px 6px 0 #FFFFFF;"
             />
@@ -47,23 +47,41 @@
 </template>
 
 <script setup>
-import ImageViolet from '../../components/ImageViolet.vue';
+import ImageViolet from '@/components/ImageViolet.vue';
+import Monument from '@/assets/Images/banner/Monument-aux-morts.webp'
+import Train from '@/assets/Images/generales/Train.webp'
+import ReneDarriet from '@/assets/Images/Portraits/renee-darriet.webp'
+import AndreeDeJongh from '@/assets/Images/Portraits/Andrée de Jongh.webp'
+import LaureGatet from '@/assets/Images/Portraits/laure-gatet.webp'
+import AurorePica from '@/assets/Images/Portraits/Aurore Pica.webp'
+import AndreeTamise from '@/assets/Images/Portraits/Andrée Tamise.webp'
+import PauletteSauboua from '@/assets/Images/Portraits/PauletteSauboua.webp'
+import LucienNouaux from '@/assets/Images/Portraits/Lucien Nouaux.webp'
+import RobertDarniche from '@/assets/Images/Portraits/Robert Darniche.webp'
+import MaxCoyne from '@/assets/Images/Portraits/Max Coyne.webp'
+import RaoulBatany from '@/assets/Images/Portraits/Raoul Batany.webp'
+import SergeDuhourquet from '@/assets/Images/Portraits/Serge Duhourquet.webp'
+import PauxCazaux from '@/assets/Images/Portraits/Paux Cazaux.webp'
+import Republicains from '@/assets/Images/Portraits/Republicains.webp'
+import Opposants from '@/assets/Images/Portraits/Opposants.webp'
+
 
 const cardsPersonnage1 = [
-  { nom: 'René Darriet, 1911 - 2010', img: '/src/assets/Images/Portraits/renee-darriet.webp', alt: 'Photo ou illustration de René Darriet'},
-  { nom: 'Andrée De Jongh, 1916 - 2007', img: '/src/assets/Images/Portraits/Andrée de Jongh.webp', alt: 'Photo ou illustration de Andrée De Jongh'},
-  { nom: 'Laure Gatet, 1913 - 1943', img: '/src/assets/Images/Portraits/laure-gatet.webp', alt: 'Photo ou illustration de Laure Gatet'},
-  { nom: 'Aurore Pica, 1923 - 1943', img: '/src/assets/Images/Portraits/Aurore Pica.webp', alt: 'Photo ou illustration de Aurore Pica'},
-  { nom: 'Andrée Tamise, 1922 - 1943', img: '/src/assets/Images/Portraits/Andrée Tamise.webp', alt: 'Photo ou illustration de Andrée Tamise'},
-  { nom: 'Paulette Sauboua', img: '/src/assets/Images/Portraits/PauletteSauboua.webp', alt: 'Photo ou illustration de Paulette Sauboua'},
-  { nom: 'Lucien Nouaux 1921 - 1944', img: '/src/assets/Images/Portraits/Lucien Nouaux.webp', alt: 'Photo ou illustration de Lucien Nouaux'},
-  { nom: 'Robert Darniche, 1910 - 1944', img: '/src/assets/Images/Portraits/Robert Darniche.webp', alt: 'Photo ou illustration de Robert Darniche'},
-  { nom: 'Max Coyne', img: '/src/assets/Images/Portraits/Max Coyne.webp', alt: 'Photo ou illustration de Max Coyne'},
-  { nom: 'Raoul Batany', img: '/src/assets/Images/Portraits/Raoul Batany.webp', alt: 'Photo ou illustration de Raoul Batany'},
-  { nom: 'Serge Duhourquet, 1926 - 1944', img: '/src/assets/Images/Portraits/Serge Duhourquet.webp', alt: 'Photo ou illustration de Serge Duhourquet'},
-  { nom: 'Paux Cazaux', img: '/src/assets/Images/Portraits/Paux Cazaux.webp', alt: 'Photo ou illustration de Paux Cazaux'},
-  { nom: 'Des républicains espagnols', img: '/src/assets/Images/Portraits/Republicains.webp', alt: 'Photo ou illustration Des républicains espagnols'},
-  { nom: 'Des opposants politiques', img: '/src/assets/Images/Portraits/Opposants.webp', alt: 'Photo ou illustration Des opposants politiques'},
+  { nom: 'René Darriet, 1911 - 2010', img: ReneDarriet, alt: 'Photo ou illustration de René Darriet' },
+  { nom: 'Andrée De Jongh, 1916 - 2007', img: AndreeDeJongh, alt: 'Photo ou illustration de Andrée De Jongh' },
+  { nom: 'Laure Gatet, 1913 - 1943', img: LaureGatet, alt: 'Photo ou illustration de Laure Gatet' },
+  { nom: 'Aurore Pica, 1923 - 1943', img: AurorePica, alt: 'Photo ou illustration de Aurore Pica' },
+  { nom: 'Andrée Tamise, 1922 - 1943', img: AndreeTamise, alt: 'Photo ou illustration de Andrée Tamise' },
+  { nom: 'Paulette Sauboua', img: PauletteSauboua, alt: 'Photo ou illustration de Paulette Sauboua' },
+  { nom: 'Lucien Nouaux 1921 - 1944', img: LucienNouaux, alt: 'Photo ou illustration de Lucien Nouaux' },
+  { nom: 'Robert Darniche, 1910 - 1944', img: RobertDarniche, alt: 'Photo ou illustration de Robert Darniche' },
+  { nom: 'Max Coyne', img: MaxCoyne, alt: 'Photo ou illustration de Max Coyne' },
+  { nom: 'Raoul Batany', img: RaoulBatany, alt: 'Photo ou illustration de Raoul Batany' },
+  { nom: 'Serge Duhourquet, 1926 - 1944', img: SergeDuhourquet, alt: 'Photo ou illustration de Serge Duhourquet' },
+  { nom: 'Paux Cazaux', img: PauxCazaux, alt: 'Photo ou illustration de Paux Cazaux' },
+  { nom: 'Des républicains espagnols', img: Republicains, alt: 'Photo ou illustration Des républicains espagnols' },
+  { nom: 'Des opposants politiques', img: Opposants, alt: 'Photo ou illustration Des opposants politiques' },
 ]
+
 
 </script>
