@@ -7,10 +7,8 @@
     />
 
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
-        <h1>Accessibilité</h1>
-        <p>Le site accessibilite.numerique.gouv.fr est développé selon les recommandations du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
-<br>
-Cette déclaration d’accessibilité s’applique au site XXXXXXXX</p>
+        <h1>Mentions légales</h1>
+        <p></p>
         <h2>État de conformité</h2>
         <p>Le site est partiellement conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4.</p>
         <h2>Résultats des tests</h2>
