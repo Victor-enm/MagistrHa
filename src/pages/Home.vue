@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen">
      <ParallaxHeader
-      imageUrl="/src/assets/Images/banner/Accueil&APropos.webp"
+      :imageUrl="Accueil"
       imageAlt="vue aérienne de la cour de l'ENM"
       height="50vh"
     />
@@ -88,6 +88,7 @@ import Plan from '../assets/Images/Illustrations/Plan.svg';
 import IconQrActif from '../assets/icons/Plan-Actif.svg';
 import IconQrInactif from '../assets/icons/Plan-Inactif.svg';
 import CardHome from '../components/CardHome.vue';
+import Accueil from '@/assets/Images/banner/Bassin.webp'
 
 const pins = ref([
   { id: 1, x: 120, y: 385, active:true,
