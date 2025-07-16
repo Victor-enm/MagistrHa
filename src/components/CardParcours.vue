@@ -7,6 +7,7 @@
         <img 
         :src='img'
         :alt='alt'
+        loading="lazy"
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
@@ -16,7 +17,8 @@
     </div>
     <div class="px-4 pb-4">
         <div class="flex items-start justify-between gap-6 whitespace-normal">
-            <h4 class="mt-0 block min-w-0 w-full break-words leading-snug flex-1 ">{{ title }}</h4>
+            <h4 class="mt-0 block min-w-0 w-full break-words leading-snug flex-1"
+            v-html="title"></h4>
             <Fleche class="w-8 h-8 shrink-0 self-start text-rouge-1" alt="fleche rouge"/>
         </div>
     </div>

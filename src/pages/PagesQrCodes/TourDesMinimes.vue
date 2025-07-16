@@ -13,7 +13,7 @@
         />
         <h1>Une tour médiévale au cœur de Bordeaux</h1>
             <p>Pendant l’Ancien Régime, le fort sert à la fois de résidence aux gouverneurs et de prison. Il incarne l’autorité royale, souvent contestée par les Bordelais, et la répression dont ils sont victimes. Théâtre d’événements dramatiques, le fort, qui accueille principalement les troupes royales, devient rapidement une prison redoutée.</p>
-            <p>Au XVIII<sup>e</sup> siècle, l’emprisonnement reste une peine secondaire : les geôles sont surtout un lieu de passage vers la torture ou l’exécution publique. Dès 1790, le Fort du Hâ regroupe :</p>
+            <p>Au XVIII<sup>e</sup> siècle, l’emprisonnement reste une peine secondaire&nbsp;: les geôles sont surtout un lieu de passage vers la torture ou l’exécution publique. Dès 1790, le Fort du Hâ regroupe&nbsp;:</p>
             <BulletFleche>Maison d’arrêt</BulletFleche>
             <BulletFleche>Maison de Justice</BulletFleche>
             <BulletFleche>Maison de correction</BulletFleche>
@@ -29,7 +29,7 @@
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
       <h2>La prison de Thiac</h2>
         <p>En 1835, une grande partie très dégradée du fort est rasée : le corps de logis, le grand donjon, les façades, les échauguettes… Seules les deux tours actuelles sont épargnées. </p>
-        <p>Sur l’espace libéré, une nouvelle prison conçue par l’architecte Thiac est inaugurée le 19 novembre 1846. Inspirée du modèle « pennsylvanien » américain, elle impose l’isolement total des détenus, censé favoriser la réflexion sur leurs actes. Par extension, on parle aussi « d’architecture panoptique » pour ce type de prison.</p>
+        <p>Sur l’espace libéré, une nouvelle prison conçue par l’architecte Thiac est inaugurée le 19 novembre 1846. Inspirée du modèle «&nbsp;pennsylvanien&nbsp;» américain, elle impose l’isolement total des détenus, censé favoriser la réflexion sur leurs actes. Par extension, on parle aussi «&nbsp;d’architecture panoptique&nbsp;» pour ce type de prison.</p>
         <ImageViolet
         :img="Prison"
         alt="Photo de l'ancienne prison" 
@@ -43,7 +43,7 @@
       <CardPersonnage v-for="(item, i) in cardsPersonnage2" :key="'a'+i" :nom="item.nom" :img="item.img"  :alt="item.alt"/>
     </ScrollHorizontal>
     
-    <p>Après la Libération, le fort redevient une prison départementale. Parmi les derniers détenus célèbres figure notamment Marie Besnard, « l’empoisonneuse de Loudun ». Les prisonniers sont transférés à Gradignan en juin 1967, et la démolition du site débute fin 1969.</p>
+    <p>Après la Libération, le fort redevient une prison départementale. Parmi les derniers détenus célèbres figure notamment Marie Besnard, «&nbsp;l’empoisonneuse de Loudun&nbsp;». Les prisonniers sont transférés à Gradignan en juin 1967, et la démolition du site débute fin 1969.</p>
     <EncartViolet>
         Dès 1918, toutes les exécutions capitales bordelaises ont lieu dans la cour du fort du Hâ. Six hommes y sont guillotinés entre 1918 et 1933. René Pons, parricide, y fut le dernier condamné à mort exécuté, le 21 juin 1960.
     </EncartViolet>

@@ -1,6 +1,6 @@
 <template>
   <div id="map-container">
-    <img :src="Map" alt="Plan" id="map-image" />
+    <img :src="Map" alt="Plan" id="map-image" loading="lazy"/>
     <!-- Points -->
     <div
       class="point"

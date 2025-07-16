@@ -6,7 +6,7 @@
       height="50vh"
     />
 
-    <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl h-[45vh]">
+    <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl h-[45vh] shadow-lg inset-shadow-sm">
 
 
         <h1>Plongez dans l’histoire de l’ENM</h1>
@@ -72,7 +72,7 @@
   <BulletFleche class="mt-4">
     <h3 class="mt-0">Une formation exigeante et humaine</h3>
   </BulletFleche>
-  <p>Plongez dans le quotidien de l’École à travers les récits de celles et ceux qui l’ont vécue : élèves magistrats, et visiteurs… Ces témoignages offrent un aperçu vivant et concret de l’expérience au sein de l’institution.</p>
+  <p>Plongez dans le quotidien de l’École à travers les récits de celles et ceux qui l’ont vécue&nbsp;: élèves magistrats, et visiteurs… Ces témoignages offrent un aperçu vivant et concret de l’expérience au sein de l’institution.</p>
   
   <Bouton
         label="Commencez l'exploration"
@@ -96,6 +96,9 @@ import Bassin from '@/assets/Images/banner/Bassin.webp'
 import Amphi from '@/assets/Images/banner/Amphi.webp'
 import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
 import Sorciere from '@/assets/Images/banner/Sorciere.webp'
+import Bouton from '@/components/bouton.vue';
+import BulletFleche from '@/components/BulletFleche.vue';
+import ParallaxHeader from '@/components/ParallaxHeader.vue';
 
 const pins = ref([
   { id: 1, x: 120, y: 385, active:true,

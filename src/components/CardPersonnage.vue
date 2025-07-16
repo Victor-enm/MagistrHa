@@ -5,6 +5,7 @@
         <img 
         :src='img'
         :alt='alt'
+        loading="lazy"
         class="object-cover h-60 w-full"
         />
     </div>

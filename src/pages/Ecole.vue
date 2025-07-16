@@ -9,7 +9,7 @@
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
         <h1>Une grande École de la République</h1>
             <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>
-                <p>Découvrez en images :</p>
+                <p>Découvrez en images&nbsp;:</p>
                 <ul>
                     <BulletFleche>Nos missions</BulletFleche>
                     <BulletFleche>Nos engagements</BulletFleche>

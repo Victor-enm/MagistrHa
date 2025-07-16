@@ -50,8 +50,8 @@ const cardsParcours2 = [
 ]
 
 const cardsParcours3 = [
-  { title: 'Amphithéâtre Simone Veil : L’héritage d’une femme d’exception au cœur de la formation', position: 'Amphithéâtre Simone Veil', img: Amphi, alt: 'Amphiteatre simone veille pendant un cours magistrale', link:'/qr/amphitheatre'},
-  { title: 'La salle des pas perdus : un lieu de rencontres, d’échanges et de débats', position: 'Salle des pas perdus', img: Salle, alt: 'Salle des pas perdus qui se situe dans le hall', link:'/qr/salle-des-pas-perdus'},
+  { title: 'Amphithéâtre Simone Veil&nbsp;: L’héritage d’une femme d’exception au cœur de la formation', position: 'Amphithéâtre Simone Veil', img: Amphi, alt: 'Amphiteatre simone veille pendant un cours magistrale', link:'/qr/amphitheatre'},
+  { title: 'La salle des pas perdus&nbsp;: un lieu de rencontres, d’échanges et de débats', position: 'Salle des pas perdus', img: Salle, alt: 'Salle des pas perdus qui se situe dans le hall', link:'/qr/salle-des-pas-perdus'},
 ]
 
 

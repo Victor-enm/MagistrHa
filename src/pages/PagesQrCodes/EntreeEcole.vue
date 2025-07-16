@@ -34,11 +34,11 @@
     /></div>
 
     <EncartViolet>
-        <p>L’origine du fort du Hâ provient du gascon « Far » (qui signifie Phare ou Guet). Le nom a dérivé pour une raison de prononciation puisque le « f » à l’époque se disait « h » et le « r » était souvent aspiré. Par usage et habitude, on oublia le Château du Far pour le Château du Hâ. »</p>
+        <p>L’origine du fort du Hâ provient du gascon «&nbsp;Far&nbsp;» (qui signifie Phare ou Guet). Le nom a dérivé pour une raison de prononciation puisque le «&nbsp;f&nbsp;» à l’époque se disait «&nbsp;h&nbsp;» et le «&nbsp;r&nbsp;» était souvent aspiré. Par usage et habitude, on oublia le Château du Far pour le Château du Hâ.&nbsp;»</p>
     </EncartViolet>
     <p class="mt-4">La présence de ces trois institutions sur un même site illustre l’évolution de la justice à Bordeaux, mais aussi les valeurs fondamentales qu’elle incarne : l’autorité, la pédagogie et la transparence.</p>
     <EncartViolet>
-        Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien. »
+        Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien.&nbsp;»
     </EncartViolet>
 </section>
 <section class="content -mt-5 bg-blanc py-8 px-5 z-10 relative border border-blanc rounded-3xl">

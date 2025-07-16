@@ -9,6 +9,7 @@
         <img 
         :src='img'
         :alt='alt'
+        loading="lazy"
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-20 right-35 px-2 py-1 rounded-full bg-blanc mr-2 mb-2">
@@ -20,6 +21,7 @@
         <img 
         :src='img'
         :alt='alt'
+        loading="lazy"
         class="object-cover h-50 w-full"
         />
         

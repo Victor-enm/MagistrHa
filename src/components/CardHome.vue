@@ -4,6 +4,7 @@
         <img 
         :src='img'
         :alt='alt'
+        loading="lazy"
         class="object-cover h-30 w-full"
         />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">

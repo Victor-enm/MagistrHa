@@ -11,15 +11,15 @@
         position="Amphithéâtre Simone Veil"
         etape="06/07"
         />
-        <h1>Amphithéâtre Simone Veil : L'Héritage d'une femme d'exception au cœur de la formation</h1>
+        <h1>Amphithéâtre Simone Veil&nbsp;: L'Héritage d'une femme d'exception au cœur de la formation</h1>
             <p>Intégrer l’ENM, c’est s’engager dans une formation exigeante, enrichie de fortes expériences humaines. Les formations, initiales ou continues, sont conçues de façon transversale pour développer et renforcer les compétences des magistrats, quelle que soit leur fonction. La pédagogie privilégie d’abord les savoirs communs, permettant d’apprendre à être magistrat avant de se spécialiser.</p>
-            <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi : </p>
+            <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi&nbsp;: </p>
             <BulletFleche>Cours en petits groupes sur de vrais dossiers</BulletFleche>
             <BulletFleche>Tables rondes</BulletFleche>
             <BulletFleche>Simulations</BulletFleche>
             <BulletFleche>Conférences en amphitéâtre</BulletFleche>
 
-            <p>En plus des enseignements assurés par une cinquantaine de magistrats et de professionnels (avocats, greffier, universitaire), l’ENM accueille chaque année plus de 750 intervenants extérieurs :</p>
+            <p>En plus des enseignements assurés par une cinquantaine de magistrats et de professionnels (avocats, greffier, universitaire), l’ENM accueille chaque année plus de 750 intervenants extérieurs&nbsp;:</p>
             <BulletFleche>Expert en droit</BulletFleche>
             <BulletFleche>Histoire, sociologie</BulletFleche>
             <BulletFleche>Psychologie</BulletFleche>
@@ -62,12 +62,6 @@
 
 <script setup>
 import CardPersonnage from '@/components/CardPersonnage.vue';
-import EncartGris from '@/components/EncartGris.vue';
-import EncartViolet from '@/components/EncartViolet.vue';
-import ImageViolet from '@/components/ImageViolet.vue';
-import TourDesAnglais from '@/assets/Images/Illustrations/TourDesAnglais.svg'
-import TourDesMinimes from '@/assets/Images/Illustrations/TourDesMinimes.svg'
-import BassinMinimes from '@/assets/Images/Illustrations/Bassin+Minimes.svg'
 import BulletFleche from '@/components/BulletFleche.vue';
 import Bouton from '@/components/bouton.vue';
 import Banner from '@/assets/Images/banner/Amphi.webp'

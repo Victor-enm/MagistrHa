@@ -13,7 +13,7 @@
         />
         <h1>Le fort du Hâ, lieu de la répression durant l’Occupation à Bordeaux </h1>
             <p>L’occupation allemande durant la Seconde Guerre mondiale marque un épisode sombre de l’histoire de la prison du Hâ qui fut utilisée comme lieu de détention, d’interrogatoire et de torture par la police allemande à Bordeaux entre 1940 et 1945. </p>
-            <p>De nombreux résistantes et résistants y furent emprisonnés avant d’être déportés vers les camps de concentration, ou fusillés au camp de Souge, près de Bordeaux.  On y retrouve : </p>
+            <p>De nombreux résistantes et résistants y furent emprisonnés avant d’être déportés vers les camps de concentration, ou fusillés au camp de Souge, près de Bordeaux.  On y retrouve&nbsp;: </p>
             <ScrollHorizontal>
               <CardPersonnage v-for="(item, i) in cardsPersonnage1" :key="'a'+i" :nom="item.nom" :img="item.img"  :alt="item.alt"/>
             </ScrollHorizontal>
@@ -26,20 +26,20 @@
             :img="Monument"
             alt="Zoom sur l'inscription du monument aux morts" 
             />
-            <p>Une plaque rappelle :</p>
+            <p>Une plaque rappelle&nbsp;:</p>
             <EncartVert>
-              <p class="font-MtItalic mt-0 text-xl">“Aux Déportés Internés et aux Résistants de la Gironde morts pour la France dans l’univers concentrationnaire nazi 1940-1945 ”</p>
+              <p class="font-MtItalic mt-0 text-xl">“&nbsp;Aux Déportés Internés et aux Résistants de la Gironde morts pour la France dans l’univers concentrationnaire nazi 1940-1945&nbsp;”</p>
             </EncartVert>
 
 
     <EncartViolet>
-        <p>L’odyssée du « train fantôme » débute à Toulouse le 3 juillet 1944. Près de 550 prisonniers juifs, résistants, réfugiés espagnols et italiens y sont entassés. </p>
+        <p>L’odyssée du «&nbsp;train fantôme&nbsp;» débute à Toulouse le 3 juillet 1944. Près de 550 prisonniers juifs, résistants, réfugiés espagnols et italiens y sont entassés. </p>
         <ImageViolet
             :img="Train"
             alt="Photo/Illustration du départ du train fantôme" 
             style="box-shadow: 6px 6px 0 #FFFFFF;"
             />
-            <p>Bloqué à Angoulême, il revient à Bordeaux du 12 juillet au 9 août. 150 prisonniers du fort du Hâ s’ajoutent alors au convoi. Les conditions sont épouvantables : chaleur, manque d’eau et de nourriture. </p>
+            <p>Bloqué à Angoulême, il revient à Bordeaux du 12 juillet au 9 août. 150 prisonniers du fort du Hâ s’ajoutent alors au convoi. Les conditions sont épouvantables&nbsp;: chaleur, manque d’eau et de nourriture. </p>
             <p>Le convoi poursuit sa route, retardé jusqu’à son arrivée à Dachau le 28 août 1944, après 52 jours de calvaire, pour un trajet qui durait habituellement trois jours. Ce convoi reste dans l’histoire comme le plus long de la déportation française.</p>
     </EncartViolet>
 </section>

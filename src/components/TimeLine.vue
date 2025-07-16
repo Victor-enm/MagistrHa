@@ -15,6 +15,7 @@
       <ImageViolet v-if="img"
       :img="img"
       :alt="alt"
+      loading="lazy"
        />
     </div>
   </div>
