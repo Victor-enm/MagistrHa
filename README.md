@@ -24,6 +24,14 @@ L’application permet aux utilisateurs de scanner des QR codes associés à cha
 - Gestion des routes via `vue-router` avec mise à jour dynamique des métadonnées  
 
 ---
+##🤝 Contribution
+
+-Développement réalisé par Victor Prudhon
+-Design réalisé par Alexandre Gay
+-Cheffe de projet Lella-Marie Desplats
+-Testeurs : Melvin
+
+---
 
 ## 🛠️ Installation & Développement
 
@@ -35,6 +43,6 @@ L’application permet aux utilisateurs de scanner des QR codes associés à cha
 ### Installation
 
 ```bash
-git clone https://github.com/ton-compte/magistrha.git
+git clone https://github.com/Victor-enm/magistrha.git
 cd magistrha
 npm install
