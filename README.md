@@ -24,12 +24,12 @@ L’application permet aux utilisateurs de scanner des QR codes associés à cha
 - Gestion des routes via `vue-router` avec mise à jour dynamique des métadonnées  
 
 ---
-##🤝 Contribution
+## 🤝 Contribution
 
--Développement réalisé par Victor Prudhon
--Design réalisé par Alexandre Gay
--Cheffe de projet Lella-Marie Desplats
--Testeurs : Melvin
+- Développement réalisé par Victor Prudhon
+- Design réalisé par Alexandre Gay
+- Cheffe de projet Lella-Marie Desplats
+- Testeurs : Melvin
 
 ---
 
