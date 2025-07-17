@@ -14,7 +14,7 @@
         <h1>Une tour médiévale au cœur de Bordeaux</h1>
             <p>Pendant l’Ancien Régime, le fort sert à la fois de résidence aux gouverneurs et de prison. Il incarne l’autorité royale, souvent contestée par les Bordelais, et la répression dont ils sont victimes. Théâtre d’événements dramatiques, le fort, qui accueille principalement les troupes royales, devient rapidement une prison redoutée.</p>
             <p>Au XVIII<sup>e</sup> siècle, l’emprisonnement reste une peine secondaire&nbsp;: les geôles sont surtout un lieu de passage vers la torture ou l’exécution publique. Dès 1790, le Fort du Hâ regroupe&nbsp;:</p>
-            <BulletFleche>Maison d’arrêt</BulletFleche>
+            <BulletFleche class="mt-2">Maison d’arrêt</BulletFleche>
             <BulletFleche>Maison de Justice</BulletFleche>
             <BulletFleche>Maison de correction</BulletFleche>
             <BulletFleche>Maison de force</BulletFleche>
@@ -58,6 +58,7 @@ import Edouard from '@/assets/Images/Portraits/Édouard_Daladier.webp'
 import George from '@/assets/Images/Portraits/Georges Mandel.webp'
 import Minimes from '@/assets/Images/banner/Minimes.webp'
 import Prison from '@/assets/Images/generales/Prison.webp'
+import BulletFleche from '@/components/BulletFleche.vue'
 
 
 

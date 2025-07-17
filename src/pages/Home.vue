@@ -67,7 +67,7 @@
   <BulletFleche class="mt-4">
     <h3 class="mt-0">Architecture et patrimoine</h3>
   </BulletFleche>
-  <p>Partez à la découverte des bâtiments de l’École et de leur évolution dans le temps. Certains éléments architecturaux remarquables, comme la Tour de Minimes ou la Tour des Sorcières, vous seront présentés, accompagnés d’anecdotes sur la conception du site.</p>
+  <p>Partez à la découverte des bâtiments de l’École et de leur évolution dans le temps. Certains éléments architecturaux remarquables, comme la Tour des Minimes ou la Tour des Sorcières, vous seront présentés, accompagnés d’anecdotes sur la conception du site.</p>
   
   <BulletFleche class="mt-4">
     <h3 class="mt-0">Une formation exigeante et humaine</h3>

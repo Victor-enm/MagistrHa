@@ -14,13 +14,13 @@
         <h1>Amphithéâtre Simone Veil&nbsp;: L'Héritage d'une femme d'exception au cœur de la formation</h1>
             <p>Intégrer l’ENM, c’est s’engager dans une formation exigeante, enrichie de fortes expériences humaines. Les formations, initiales ou continues, sont conçues de façon transversale pour développer et renforcer les compétences des magistrats, quelle que soit leur fonction. La pédagogie privilégie d’abord les savoirs communs, permettant d’apprendre à être magistrat avant de se spécialiser.</p>
             <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi&nbsp;: </p>
-            <BulletFleche>Cours en petits groupes sur de vrais dossiers</BulletFleche>
+            <BulletFleche class="mt-2">Cours en petits groupes sur de vrais dossiers</BulletFleche>
             <BulletFleche>Tables rondes</BulletFleche>
             <BulletFleche>Simulations</BulletFleche>
             <BulletFleche>Conférences en amphitéâtre</BulletFleche>
 
             <p>En plus des enseignements assurés par une cinquantaine de magistrats et de professionnels (avocats, greffier, universitaire), l’ENM accueille chaque année plus de 750 intervenants extérieurs&nbsp;:</p>
-            <BulletFleche>Expert en droit</BulletFleche>
+            <BulletFleche class="mt-2">Expert en droit</BulletFleche>
             <BulletFleche>Histoire, sociologie</BulletFleche>
             <BulletFleche>Psychologie</BulletFleche>
             <BulletFleche>Médecine légale</BulletFleche>

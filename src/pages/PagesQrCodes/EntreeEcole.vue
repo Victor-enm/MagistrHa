@@ -38,7 +38,7 @@
     </EncartViolet>
     <p class="mt-4">La présence de ces trois institutions sur un même site illustre l’évolution de la justice à Bordeaux, mais aussi les valeurs fondamentales qu’elle incarne : l’autorité, la pédagogie et la transparence.</p>
     <EncartViolet>
-        Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien.&nbsp;»
+        <p class="mt-4">Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien.&nbsp;»</p>
     </EncartViolet>
 </section>
 <section class="content -mt-5 bg-blanc py-8 px-5 z-10 relative border border-blanc rounded-3xl">
