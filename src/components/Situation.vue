@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-between items-center self-center mb-8">
     <div class="flex bottom-0">
-        <Localisation class="w-6 h-6 shrink-0 self-end object-cover" alt="icone localisation"/>
+        <Localisation class="w-6 h-6 shrink-0 self-end object-cover" role="presentation" aria-hidden="true"/>
         <p class="">{{ position }}</p>
     </div>
     <p>

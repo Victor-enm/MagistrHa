@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky bottom-0 w-95 flex justify-around bg-blanc inset-shadow-sm rounded-xl py-2 text-xs h-[72px] mr-auto ml-auto"
+    class="sticky bottom-0 w-[90%] px-2 mx-auto max-w-5xl flex justify-around bg-blanc inset-shadow-sm rounded-xl py-2 text-xs h-[72px]"
     role="navigation"
     aria-label="Navigation principale"
   >

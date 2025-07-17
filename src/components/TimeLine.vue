@@ -5,7 +5,7 @@
 
     <!-- Point rouge SVG centré sur la ligne -->
     <div class="absolute left-2 top-8 z-10 w-4 h-4">
-      <Puce alt="" class="w-4 h-4" />
+      <Puce alt="" class="w-4 h-4" role="presentation" aria-hidden="true" />
     </div>
 
     <!-- Contenu texte -->

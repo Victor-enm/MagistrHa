@@ -11,7 +11,7 @@
         class="object-cover h-50 w-full"
         />
         <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
-            <Localisation class="w-6 h-6 shrink-0 self-end object-cover" alt="Pin localisation"/>
+            <Localisation class="w-6 h-6 shrink-0 self-end object-cover" role="presentation" aria-hidden="true"/>
             <p class="mt-0">{{ position }}</p>
         </div>
     </div>
@@ -19,7 +19,7 @@
         <div class="flex items-start justify-between gap-6 whitespace-normal">
             <h4 class="mt-0 block min-w-0 w-full break-words leading-snug flex-1"
             v-html="title"></h4>
-            <Fleche class="w-8 h-8 shrink-0 self-start text-rouge-1" alt="fleche rouge"/>
+            <Fleche class="w-8 h-8 shrink-0 self-start text-rouge-1" role="presentation" aria-hidden="true"/>
         </div>
     </div>
     
