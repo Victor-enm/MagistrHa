@@ -24,6 +24,12 @@ L’application permet aux utilisateurs de scanner des QR codes associés à cha
 - Gestion des routes via `vue-router` avec mise à jour dynamique des métadonnées  
 
 ---
+## ⚙️ Versionning
+
+- v0.7 Testeurs
+
+
+---
 ## 🤝 Contribution
 
 - Développement réalisé par Victor Prudhon
