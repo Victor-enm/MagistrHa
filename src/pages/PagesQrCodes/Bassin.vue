@@ -55,6 +55,7 @@
       nom="Richard Rogers, 1933 - 2021"
       :img="Richard"
       alt="Richard Rogers"
+      class="mt-4"
       />
       <EncartViolet>
         <p>Le souhait de l’architecte était que le bâtiment soit tout en courbes, voutes, rondeurs et circularité&nbsp;: la justice n’est-elle pas là pour «&nbsp;arrondir les angles ?&nbsp;».</p>

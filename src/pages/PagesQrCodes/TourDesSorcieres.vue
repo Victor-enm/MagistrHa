@@ -23,7 +23,7 @@
             <p>Le fort, puissant ouvrage militaire de forme quadrilatère (120 m sur 68 m), abritait un grand donjon symbolisant la présence royale.</p>
             <p>Dès les années 1470, il devient la résidence du duc de Guyenne, Charles de Valois, qui y tient une cour prestigieuse, jusqu’à sa mort en 1472.</p>
             <p>Au fil des siècles, le fort du Hâ a ainsi connu de nombreux usages :</p>
-            <BulletFleche>Forteresse militaire</BulletFleche>
+            <BulletFleche class="mt-4">Forteresse militaire</BulletFleche>
             <BulletFleche>Palais Royal</BulletFleche>
             <BulletFleche>Refuge pour les protestants</BulletFleche>
             <BulletFleche>Prison civile puis politique</BulletFleche>
@@ -49,7 +49,7 @@
     />
     <p>Remaniée par Gillet dans les années 1970, la tour est encore utilisée aujourd’hui, avec le salon d’honneur au 1er niveau et une salle d’audience pédagogique grandeur nature, l’une des rares en France, au niveau supérieur.</p>
     <EncartViolet>
-        Surnommée aussi tour des Poudres, ses murs de 4,5 m d’épaisseur protégeaient le fort en cas d’explosion. Son nom vient de la présence des religieux Minimes dont les bâtiments étaient adossés à l’édifice.
+        <p>Surnommée aussi tour des Poudres, ses murs de 4,5 m d’épaisseur protégeaient le fort en cas d’explosion. Son nom vient de la présence des religieux Minimes dont les bâtiments étaient adossés à l’édifice.</p>
     </EncartViolet>
 </section>
   </div>

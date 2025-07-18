@@ -10,7 +10,7 @@
         <h1>Une grande École de la République</h1>
             <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>
                 <p>Découvrez en images&nbsp;:</p>
-                <ul>
+                <ul class="mt-4">
                     <BulletFleche>Nos missions</BulletFleche>
                     <BulletFleche>Nos engagements</BulletFleche>
                     <BulletFleche>Notre vision pour une justice moderne et accessible</BulletFleche>

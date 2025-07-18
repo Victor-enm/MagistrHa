@@ -19,16 +19,14 @@
         <p class="italic underline"><router-link to="/legales/mentions-legales">Mentions légales</router-link></p>
         <p class="italic underline"><router-link to="/legales/accessibilite">Accessibilité</router-link></p>
         <p class="italic underline"><router-link to="/legales/politique-de-confidentialite">Politique de confidentiaité</router-link></p>
-        <p class="italic underline"><a href="#tarteaucitron">Paramètres des cookies</a></p>
     </section>
       
   </div>
 </template>
 
 <script setup>
-import Bouton from '../components/bouton.vue';
-import ParallaxHeader from '../components/ParallaxHeader.vue';
-import Banner from '@/assets/Images/banner/Accueil&APropos.webp'
+import ParallaxHeader from '@/components/ParallaxHeader.vue';
+import Banner from '@/assets/Images/banner/Accueil&APropos.webp';
 
 
 

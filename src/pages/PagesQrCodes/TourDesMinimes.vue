@@ -45,7 +45,7 @@
     
     <p>Après la Libération, le fort redevient une prison départementale. Parmi les derniers détenus célèbres figure notamment Marie Besnard, «&nbsp;l’empoisonneuse de Loudun&nbsp;». Les prisonniers sont transférés à Gradignan en juin 1967, et la démolition du site débute fin 1969.</p>
     <EncartViolet>
-        Dès 1918, toutes les exécutions capitales bordelaises ont lieu dans la cour du fort du Hâ. Six hommes y sont guillotinés entre 1918 et 1933. René Pons, parricide, y fut le dernier condamné à mort exécuté, le 21 juin 1960.
+        <p>Dès 1918, toutes les exécutions capitales bordelaises ont lieu dans la cour du fort du Hâ. Six hommes y sont guillotinés entre 1918 et 1933. René Pons, parricide, y fut le dernier condamné à mort exécuté, le 21 juin 1960.</p>
     </EncartViolet>
 </section>
   </div>
@@ -59,6 +59,7 @@ import George from '@/assets/Images/Portraits/Georges Mandel.webp'
 import Minimes from '@/assets/Images/banner/Minimes.webp'
 import Prison from '@/assets/Images/generales/Prison.webp'
 import BulletFleche from '@/components/BulletFleche.vue'
+import CardPersonnage from '@/components/CardPersonnage.vue'
 
 
 

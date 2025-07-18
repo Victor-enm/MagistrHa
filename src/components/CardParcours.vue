@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-violet-3 rounded-xl bg-blanc w-76 snap-start overflow-hidden"
+  <div class="border border-violet-3 rounded-xl bg-blanc w-76 snap-start overflow-hidden mr-2"
   style="box-shadow: 6px 6px 0 #CAC7FD;">
   <router-link
   :to="link">

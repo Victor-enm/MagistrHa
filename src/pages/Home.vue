@@ -16,6 +16,7 @@
 <Bouton
         label="Commencer votre visite"
         to="/parcours"
+        class="mb-6"
       />
       </section>
       <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
