@@ -1,55 +1,55 @@
 <template>
-
-    <div class="parallax-container">
-      <img
-        :src="imageUrl"
-        :alt="imageAlt"
-        class="parallax-image"
-      />
-    </div>
-
+  <div class="parallax-container">
+    <img
+      :src="imageUrl"
+      :alt="imageAlt"
+      class="parallax-image"
+      :style="{ transform: `translateY(${offsetY * 0.5}px)` }"
+    />
+  </div>
 </template>
 
 <script setup>
-// Définition des props pour l'URL de l'image et le texte alternatif
+import { ref, onMounted, onUnmounted } from 'vue'
+
 const props = defineProps({
-  imageUrl: {
-    type: String,
-    required: true,
-  },
-  imageAlt: {
-    type: String,
-    default: 'Image de parallaxe',
-  },
-  height: {
-    type: String,
-    default: '64vh', // Hauteur par défaut, par exemple 64% de la hauteur du viewport
-  },
-});
+  imageUrl: { type: String, required: true },
+  imageAlt: { type: String, default: 'Image de parallaxe' },
+  height: { type: String, default: '64vh' },
+})
+
+const offsetY = ref(0)
+
+const handleScroll = () => {
+  offsetY.value = window.scrollY
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <style scoped>
-
 .parallax-container {
-  /* Ces styles sont critiques pour l'effet sticky et l'accélération matérielle */
+  position: relative;
   width: 100%;
-  height: v-bind(height); /* Utilise la prop 'height' pour la hauteur */
+  height: v-bind(height);
   overflow: hidden;
-  position: sticky;
-  top: 0;
-  transform: translateZ(0); /* Force l'accélération matérielle */
-  will-change: transform; /* Indique que la transformation va changer */
+  z-index: 0;
 }
 
 .parallax-image {
-  /* Styles pour l'image elle-même */
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 120%; /* léger dépassement pour éviter les bords blancs */
   object-fit: cover;
-  /* Légère mise à l'échelle pour éviter les bords blancs potentiels */
-  transform: translateZ(0) scale(1.1);
-  transition: transform 0s ease-out; /* Pas de transition pour le mouvement de défilement */
   will-change: transform;
+  z-index: -1; /* assure que l’image passe SOUS le contenu */
 }
-
 </style>
