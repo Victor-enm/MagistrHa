@@ -15,7 +15,7 @@
             <p>L’occupation allemande durant la Seconde Guerre mondiale marque un épisode sombre de l’histoire de la prison du Hâ qui fut utilisée comme lieu de détention, d’interrogatoire et de torture par la police allemande à Bordeaux entre 1940 et 1945. </p>
             <p>De nombreux résistantes et résistants y furent emprisonnés avant d’être déportés vers les camps de concentration, ou fusillés au camp de Souge, près de Bordeaux.  On y retrouve&nbsp;: </p>
             <ScrollHorizontal>
-              <CardPersonnage v-for="(item, i) in cardsPersonnage1" :key="'a'+i" :nom="item.nom" :img="item.img"  :alt="item.alt"/>
+              <CardPersonnage v-for="(item, i) in cardsPersonnage1" :key="'a'+i" :nom="item.nom" :date="item.date" :img="item.img"  :alt="item.alt"/>
             </ScrollHorizontal>
 
             <p>Des femmes et des hommes, qui pour la plupart étaient juifs, transitent également par le fort du Hâ avant leur transfert à Drancy, puis vers les camps d’extermination en Pologne. Parmi eux, Léon Librach, cousin de Hersz Librach, témoin lors du procès Papon à Bordeaux en 1998.</p>
@@ -43,12 +43,16 @@
             <p>Le convoi poursuit sa route, retardé jusqu’à son arrivée à Dachau le 28 août 1944, après 52 jours de calvaire, pour un trajet qui durait habituellement trois jours. Ce convoi reste dans l’histoire comme le plus long de la déportation française.</p>
     </EncartViolet>
 </section>
+<EtMaintenant 
+    BgColor="bg-marron"
+    />
   </div>
 </template>
 
 <script setup>
 import ImageViolet from '@/components/ImageViolet.vue';
 import Monument from '@/assets/Images/banner/Monument-aux-morts.webp'
+import Train2 from '@/assets/Images/generales/etape 4.webp'
 import Train from '@/assets/Images/generales/Train.webp'
 import ReneDarriet from '@/assets/Images/Portraits/renee-darriet.webp'
 import AndreeDeJongh from '@/assets/Images/Portraits/Andrée de Jongh.webp'
@@ -64,23 +68,24 @@ import SergeDuhourquet from '@/assets/Images/Portraits/Serge Duhourquet.webp'
 import PauxCazaux from '@/assets/Images/Portraits/Paux Cazaux.webp'
 import Republicains from '@/assets/Images/Portraits/Republicains.webp'
 import Opposants from '@/assets/Images/Portraits/Opposants.webp'
+import EtMaintenant from '@/components/EtMaintenant.vue';
 
 
 const cardsPersonnage1 = [
-  { nom: 'René Darriet, 1911 - 2010', img: ReneDarriet, alt: 'Photo ou illustration de René Darriet' },
-  { nom: 'Andrée De Jongh, 1916 - 2007', img: AndreeDeJongh, alt: 'Photo ou illustration de Andrée De Jongh' },
-  { nom: 'Laure Gatet, 1913 - 1943', img: LaureGatet, alt: 'Photo ou illustration de Laure Gatet' },
-  { nom: 'Aurore Pica, 1923 - 1943', img: AurorePica, alt: 'Photo ou illustration de Aurore Pica' },
-  { nom: 'Andrée Tamise, 1922 - 1943', img: AndreeTamise, alt: 'Photo ou illustration de Andrée Tamise' },
-  { nom: 'Paulette Sauboua', img: PauletteSauboua, alt: 'Photo ou illustration de Paulette Sauboua' },
-  { nom: 'Lucien Nouaux 1921 - 1944', img: LucienNouaux, alt: 'Photo ou illustration de Lucien Nouaux' },
-  { nom: 'Robert Darniche, 1910 - 1944', img: RobertDarniche, alt: 'Photo ou illustration de Robert Darniche' },
-  { nom: 'Max Coyne', img: MaxCoyne, alt: 'Photo ou illustration de Max Coyne' },
-  { nom: 'Raoul Batany', img: RaoulBatany, alt: 'Photo ou illustration de Raoul Batany' },
-  { nom: 'Serge Duhourquet, 1926 - 1944', img: SergeDuhourquet, alt: 'Photo ou illustration de Serge Duhourquet' },
-  { nom: 'Paux Cazaux', img: PauxCazaux, alt: 'Photo ou illustration de Paux Cazaux' },
-  { nom: 'Des républicains espagnols', img: Republicains, alt: 'Photo ou illustration Des républicains espagnols' },
-  { nom: 'Des opposants politiques', img: Opposants, alt: 'Photo ou illustration Des opposants politiques' },
+  { nom: 'René Darriet', img: ReneDarriet, alt: 'Photo ou illustration de René Darriet,', date: '1911 - 2010' },
+  { nom: 'Andrée De Jongh', img: AndreeDeJongh, alt: 'Photo ou illustration de Andrée De Jongh,', date: '1916 - 2007' },
+  { nom: 'Laure Gatet', img: LaureGatet, alt: 'Photo ou illustration de Laure Gatet,', date: '1913 - 1943' },
+  { nom: 'Aurore Pica', img: AurorePica, alt: 'Photo ou illustration de Aurore Pica,', date: '1923 - 1943' },
+  { nom: 'Andrée Tamise', img: AndreeTamise, alt: 'Photo ou illustration de Andrée Tamise,', date: '1922 - 1943' },
+  { nom: 'Paulette Sauboua', img: PauletteSauboua, alt: 'Photo ou illustration de Paulette Sauboua,', date: '' },
+  { nom: 'Lucien Nouaux', img: LucienNouaux, alt: 'Photo ou illustration de Lucien Nouaux,', date: '1921 - 1944' },
+  { nom: 'Robert Darniche', img: RobertDarniche, alt: 'Photo ou illustration de Robert Darniche,', date: '1910 - 1944' },
+  { nom: 'Max Coyne', img: MaxCoyne, alt: 'Photo ou illustration de Max Coyne,' },
+  { nom: 'Raoul Batany', img: RaoulBatany, alt: 'Photo ou illustration de Raoul Batany,' },
+  { nom: 'Serge Duhourquet', img: SergeDuhourquet, alt: 'Photo ou illustration de Serge Duhourquet,', date: '1926 - 1944' },
+  { nom: 'Paux Cazaux', img: PauxCazaux, alt: 'Photo ou illustration de Paux Cazaux,' },
+  { nom: 'Des républicains espagnols', img: Republicains, alt: 'Photo ou illustration Des républicains espagnols,' },
+  { nom: 'Des opposants politiques', img: Opposants, alt: 'Photo ou illustration Des opposants politiques,' },
 ]
 
 

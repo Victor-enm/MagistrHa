@@ -33,10 +33,11 @@
       <p>L’enceinte du fort était protégée par deux tours principales, inscrites aux monuments historiques, elles subsistent aujourd’hui et témoignent de cette riche histoire : </p>
       <h2>La tour des Anglais</h2>
         <p>Tournée vers la campagne, est reconnaissable à sa forme élancée, en fer à cheval, ses mâchicoulis et ses arbalétrières. Elle permettait de surveiller d’éventuels retours ennemis.</p>
-        <ImageViolet
-        :img="Sorciere"
-        alt="Zoom sur la tour des sorcières" 
-        />
+        
+        <ScrollHorizontal>
+              <CardImage v-for="(item, i) in listImages" :key="'a'+i" :img="item.img"  :alt="item.alt" />
+            </ScrollHorizontal>
+           
 
     <EncartViolet>
         <p>Cette tour est aussi appelée tour des Sorcières, car des femmes accusées de sorcellerie y furent brûlées en 1610, ou tour du Peugue, du nom d’une rivière, une jalle (du gascon qui signifie cour d’eau), aujourd’hui souterraine qui longeait le fort pour se jeter dans la Garonne.</p>
@@ -52,6 +53,9 @@
         <p>Surnommée aussi tour des Poudres, ses murs de 4,5 m d’épaisseur protégeaient le fort en cas d’explosion. Son nom vient de la présence des religieux Minimes dont les bâtiments étaient adossés à l’édifice.</p>
     </EncartViolet>
 </section>
+<EtMaintenant 
+    BgColor="bg-blanc z-15 rounded-3xl"
+    />
   </div>
 </template>
 
@@ -60,7 +64,16 @@ import BulletFleche from '@/components/BulletFleche.vue';
 import CardPersonnage from '@/components/CardPersonnage.vue';
 import EncartViolet from '@/components/EncartViolet.vue';
 import ImageViolet from '@/components/ImageViolet.vue';
-import Sorciere from '@/assets/Images/banner/Sorciere.webp'
+import Sorciere from '@/assets/Images/banner/Sorciere3.webp'
 import Minimes from '@/assets/Images/banner/Minimes.webp'
 import CharlesVII from '@/assets/Images/Portraits/CharlesVII.webp'
+import EtMaintenant from '@/components/EtMaintenant.vue';
+import Etape2 from '@/assets/Images/generales/etape 2.1.webp'
+import Etape3 from '@/assets/Images/generales/etape 2.2.webp'
+
+const listImages = [
+  {img: Sorciere, alt: 'Zoom sur la tour des sorcières'},
+  {img: Etape2, alt: 'Plan de la tour des sorcières'},
+  {img: Etape3, alt: 'Plan de la tour des sorcières avec rempart'},
+]
 </script>

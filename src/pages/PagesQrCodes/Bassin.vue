@@ -19,7 +19,8 @@
             <p>En 1960 le projet est confié à un architecte français «&nbsp;au service de la justice&nbsp;», le titulaire du Prix de Rome en 1946, architecte conseil du ministère de la Justice depuis 1954 : Guillaume Gillet.</p>
 
             <CardPersonnage
-            nom="Guillaume Gillet, 1912 - 1987"
+            nom="Guillaume Gillet"
+            date="1912 - 1987"
             :img="Gillet"
             alt="Photo de l'architecte Guillaume Gillet"
             class="mt-4"
@@ -30,9 +31,13 @@
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
       <h2>L’implantation à Bordeaux, un choix politique</h2>
       <p>Gillet intègre les nouveaux espaces à l’histoire du site, conservant les deux tours du fort, et privilégie des salles adaptées à l’enseignement en petits groupes, un amphithéâtre de 300 places et une salle de simulation d’audiences.</p>
-      <p>Entretemps, l’ENM fut officiellement inaugurée le 12 décembre 1972 en présence du garde des Sceaux René Pleven, du maire de Bordeaux Jacques Chaban-Delmas.</p>
+      <p>Entretemps, l’ENM fut officiellement inaugurée le 12 décembre 1972 en présence du garde des Sceaux René Pleven et du maire de Bordeaux Jacques Chaban-Delmas.</p>
 
-      <h2>Une architecture de style “V<sup>e</sup> République”</h2>
+      <ScrollHorizontal>
+        <CardImage v-for="(item, i) in listImages" :key="'a'+i" :img="item.img"  :alt="item.alt" />
+      </ScrollHorizontal>
+
+      <h2>Une architecture de style “V<sup>e</sup>&nbsp;République”</h2>
       <p>Les travaux de construction débutent en 1971 et sont conduits avec une rapidité étonnante. En juillet 1972, le gros œuvre de béton armé des deux ailes, les piliers, la corniche de la salle des pas perdus et la charpente sont achevés. L’aménagement intérieur est réalisé entre septembre 1972 et le début de l’année 1973. </p>
       <p> Au cœur de l’École, une vaste salle des pas perdus permet la liaison entre les différentes parties du bâtiment ; à l’instar de celles des palais de justice elle est un lieu de rencontres, de débats, de discussion et de déambulation de «&nbsp;l’académie socratique&nbsp;» définie par Gillet. </p>
 
@@ -41,10 +46,11 @@
       alt="Vue de l'intérieur de l'ENM donnant sur le hall et la salle des pas perdus"
       />
 
-      <p>Baignée par la lumière du nord-ouest qui entre généreusement par la façade vitrée de la cour, la salle des pas perdus entoure et embrasse la tour des Minimes qui devient le point de mire, tenant la même position que le juge dans un tribunal, qui occupe, selon Robert Badinter&nbsp;:</p>
+      <p>Baignée par la lumière du nord-ouest qui entre généreusement par la façade vitrée de la cour, la salle des pas perdus entoure et embrasse la tour des Minimes qui devient le point de mire.</p>
 
       <EncartVert>
-        <p class="font-MtItalic text-xl mt-0">“Une position centrale autour de laquelle tout s’ordonne, comme le débat judiciaire qu’il conduit”</p>
+        <p class="font-MtItalic text-xl mt-0">“Dans un tribunal, le juge occupe une position centrale autour de laquelle tout s’ordonne, comme le débat judiciaire qu’il conduit.”</p>
+        <p class="font-MtSemiBold text-xl">Robert Badinter</p>
       </EncartVert>
       <p>La tour est ainsi le centre à la fois physique et symbolique de l’ENM.</p>
     </section>
@@ -52,16 +58,17 @@
       <h2>Agrandissements et extensions ultérieurs</h2>
       <p>Prévue initialement pour 100 auditeurs de justice, l’ENM devient rapidement trop exiguë. En parallèle de la construction du nouveau palais de justice, des travaux d’extension et de modernisation sont réalisés entre 1994 et 1996 par l’architecte Richard Rogers, connu pour avoir coréalisé le centre Pompidou à Paris. </p>
       <CardPersonnage
-      nom="Richard Rogers, 1933 - 2021"
+      nom="Richard Rogers"
+      date="1933 - 2021"
       :img="Richard"
       alt="Richard Rogers"
       class="mt-4"
       />
       <EncartViolet>
-        <p>Le souhait de l’architecte était que le bâtiment soit tout en courbes, voutes, rondeurs et circularité&nbsp;: la justice n’est-elle pas là pour «&nbsp;arrondir les angles ?&nbsp;».</p>
+        <p>Le souhait de l’architecte était que le bâtiment soit tout en courbes, voutes, rondeurs et circularité&nbsp;: la justice n’est-elle pas là pour «&nbsp;arrondir les angles&nbsp;»&nbsp;?</p>
         <p>Ainsi le toit qui couvre la salle des pas perdus décrit une forme arrondie, il se soulève en son milieu puis se rabaisse et se soulève de nouveau à ses extrémités, formant des ondulations qui apaisent le regard.</p>
       </EncartViolet>
-      <p>Rogers s’inscrit dans l’histoire du fort du Hâ, en poursuivant l’intégration d’éléments contemporains par la construction d’une 3e tour de forme carrée (la tour des Minimes est de base circulaire et à la tour des Anglais en forme de fer à cheval) complétant ainsi l’aspect symétrique esquissée par la courbe du bâtiment de Gillet.</p>
+      <p>Rogers s’inscrit dans l’histoire du fort du Hâ, en poursuivant l’intégration d’éléments contemporains par la construction d’une 3<sup>ème</sup> tour de forme carrée (la tour des Minimes est de base circulaire et à la tour des Anglais en forme de fer à cheval) complétant ainsi l’aspect symétrique esquissé par la courbe du bâtiment de Gillet.</p>
       <EncartGris>
         <div class="flex justify-between items-center-safe px-8">
           <TourDesAnglais />
@@ -77,6 +84,9 @@
         </EncartGris>
       </EncartViolet>
     </section>
+    <EtMaintenant 
+    BgColor="bg-marron"
+    />
   </div>
 </template>
 
@@ -92,6 +102,17 @@ import Richard from '@/assets/Images/Portraits/Richard_Rogers.webp'
 import Bassin from '@/assets/Images/banner/Bassin.webp'
 import Gillet from '@/assets/Images/Portraits/Guillaume Gillet.webp'
 import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
+import EtMaintenant from '@/components/EtMaintenant.vue';
+import Etape1 from '@/assets/Images/generales/etape5.1.webp';
+import Etape2 from '@/assets/Images/generales/etape 5.2.webp';
+import Etape3 from '@/assets/Images/generales/etape5.3.webp';
+import Etape4 from '@/assets/Images/generales/etape 5.4.webp';
 
+const listImages = [
+  {img: Etape1, alt: 'Photo de la démolition côté tour des minimes'},
+  {img: Etape2, alt: 'Photo de la démolition cours'},
+  {img: Etape3, alt: 'Photo de la construction du hall'},
+  {img: Etape4, alt: 'Photo de la construction du bâtiment principal'},
+]
 
 </script>

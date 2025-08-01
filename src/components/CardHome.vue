@@ -7,7 +7,7 @@
         loading="lazy"
         class="object-cover h-30 w-full"
         />
-        <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2">
+        <div class="absolute flex bottom-0 right-0 px-2 py-1 bg-blanc rounded-lg mr-2 mb-2 shadow-lg inset-shadow-sm">
             <p class="mt-0">Étape {{ etape }}/07</p>
         </div>
     </div>

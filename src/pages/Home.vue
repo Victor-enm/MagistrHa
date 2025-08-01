@@ -13,14 +13,14 @@
  
    <p>L’École nationale de la magistrature occupe un site historique qui présente la double particularité d’être un lieu de justice depuis plus de cinq siècles en même temps qu’un monument clé de l’histoire de Bordeaux.</p>
 
-<Bouton
+<!--<Bouton
         label="Commencer votre visite"
         to="/parcours"
         class="mb-6"
-      />
+      />-->
       </section>
       <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
-        <h2>Explorez l'École</h2>
+        <h2 id="map">Explorez l'École</h2>
   <p>Retrouvez sur cette carte de l’ENM les emplacements des 7 QR codes à scanner au fil de votre visite !</p>
   <div class="relative w-full max-w-4xl mx-auto mb-6 mt-6">
     <!-- Carte SVG inline -->
@@ -31,7 +31,7 @@
       v-for="pin in pins"
       :key="pin.id"
       :is="pin.active ? IconQrActif : IconQrInactif"
-      class="absolute cursor-pointer"
+      class="absolute cursor-pointer shadow-lg inset-shadow-sm rounded-2xl"
       :style="{
         top: pin.y + 'px',
         left: pin.x + 'px',
@@ -76,7 +76,7 @@
   <p>Plongez dans le quotidien de l’École à travers les récits de celles et ceux qui l’ont vécue&nbsp;: élèves magistrats, et visiteurs… Ces témoignages offrent un aperçu vivant et concret de l’expérience au sein de l’institution.</p>
   
   <Bouton
-        label="Commencez l'exploration"
+        label="Commencer l'exploration"
         to="/scan"
       />
 </section>
@@ -85,10 +85,10 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import Plan from '../assets/Images/Illustrations/Plan.svg';
-import IconQrActif from '../assets/icons/Plan-Actif.svg';
-import IconQrInactif from '../assets/icons/Plan-Inactif.svg';
-import CardHome from '../components/CardHome.vue';
+import Plan from '@/assets/Images/Illustrations/Plan-ENM-Modifie.svg';
+import IconQrActif from '@/assets/icons/Plan-Actif.svg';
+import IconQrInactif from '@/assets/icons/Plan-Inactif.svg';
+import CardHome from '@/components/CardHome.vue';
 import accueilImage from '@/assets/Images/banner/Accueil&APropos.webp'
 import Entree from '@/assets/Images/banner/EntreeDeLecole.webp'
 import Monument from '@/assets/Images/banner/Monument-aux-morts.webp'
