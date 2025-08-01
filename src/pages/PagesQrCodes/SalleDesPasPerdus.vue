@@ -60,7 +60,7 @@ import ImageViolet from '@/components/ImageViolet.vue';
 import TimeLine from '@/components/TimeLine.vue';
 import Salle from '@/assets/Images/banner/Salle-des-pas-perdus2.webp'
 import Paris from '@/assets/Images/generales/ENM-Paris.webp'
-import Archipel from '@/assets/Images/generales/Site_Archipel_v2.webp'
+import Archipel from '@/assets/Images/generales/Site_Archipel_V2.webp'
 import Arborial from '@/assets/Images/generales/Arborial.webp'
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Etape1 from '@/assets/Images/generales/etape 7.1.webp';
