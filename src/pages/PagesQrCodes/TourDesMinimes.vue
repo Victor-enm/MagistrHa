@@ -28,7 +28,7 @@
     </section>
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc ">
       <h2>La prison de Thiac</h2>
-        <p>En 1835, une grande partie très dégradée du fort est rasée : le corps de logis, le grand donjon, les façades, les échauguettes… Seules les deux tours actuelles sont épargnées. </p>
+        <p>En 1835, une grande partie très dégradée du fort est rasée&nbsp;: le corps de logis, le grand donjon, les façades, les échauguettes… Seules les deux tours actuelles sont épargnées.&nbsp;</p>
         <p>Sur l’espace libéré, une nouvelle prison conçue par l’architecte Thiac est inaugurée le 19 novembre 1846. Inspirée du modèle «&nbsp;pennsylvanien&nbsp;» américain, elle impose l’isolement total des détenus, censé favoriser la réflexion sur leurs actes. Par extension, on parle aussi «&nbsp;d’architecture panoptique&nbsp;» pour ce type de prison.</p>
          <ScrollHorizontal>
               <CardImage v-for="(item, i) in listImages" :key="'a'+i" :img="item.img"  :alt="item.alt" />
@@ -37,7 +37,7 @@
         <p>Les tours des Minimes et des Anglais qui s’intègrent aux nouvelles constructions renforcent le caractère médiéval du site.</p>
 
     <h2>La prison sous l’occupation et dans l’après-guerre</h2>
-    <p>Durant cette période, le fort sert de prison politique pour les résistants et les opposants, dont Édouard Daladier (Président du conseil jusqu’au 20 mars 1940), Georges Mandel (journaliste, homme politique français, résistant assassiné par la Milice en 1944) et le prince Louis Napoléon Bonaparte (prétendant au trône impérial). </p>
+    <p>Durant cette période, le fort sert de prison politique pour les résistants et les opposants, dont Édouard Daladier (Président du conseil jusqu’au 20 mars 1940), Georges Mandel (journaliste, homme politique français, résistant assassiné par la Milice en 1944) et le prince Louis Napoléon Bonaparte (prétendant au trône impérial).&nbsp;</p>
     <ScrollHorizontal>
       <CardPersonnage v-for="(item, i) in cardsPersonnage2" :key="'a'+i" :nom="item.nom" :date="item.date" :img="item.img"  :alt="item.alt"/>
     </ScrollHorizontal>
@@ -69,7 +69,7 @@ import Etape2 from '@/assets/Images/generales/etape 3.2.webp'
 import Etape3 from '@/assets/Images/generales/etape 3.3Intérieur_prison_du_Ha.webp'
 import Etape4 from '@/assets/Images/generales/etape3.4Vue_aerienne_prison_du_Ha_Cour_appel.webp'
 import Etape5 from '@/assets/Images/generales/etape 3.5.webp'
-
+import Situation from '@/components/SituationCard.vue';
 
 
 const cardsPersonnage1 = [

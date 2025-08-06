@@ -16,7 +16,7 @@
             <p>Bordeaux suit cette tendance&nbsp;: en juin 1967, les détenus du fort du Hâ sont transférés à la nouvelle prison de Gradignan, marquant la fin de la prison de Thiac, jugée vétuste et surpeuplée. </p>
             <p>Sur cet espace libéré, l’État décide d’implanter le Centre national d’études judiciaires, qui deviendra l’École nationale de la magistrature (ENM) en 1972.</p>
             <h2>Le projet de Guillaume Gillet</h2>
-            <p>En 1960 le projet est confié à un architecte français «&nbsp;au service de la justice&nbsp;», le titulaire du Prix de Rome en 1946, architecte conseil du ministère de la Justice depuis 1954 : Guillaume Gillet.</p>
+            <p>En 1960 le projet est confié à un architecte français «&nbsp;au service de la justice&nbsp;», le titulaire du Prix de Rome en 1946, architecte conseil du ministère de la Justice depuis 1954&nbsp;: Guillaume Gillet.</p>
 
             <CardPersonnage
             nom="Guillaume Gillet"
@@ -26,7 +26,7 @@
             class="mt-4"
             />
 
-            <p>Après plusieurs avant-projets, il conçoit un projet qualifié de «&nbsp;parti architectural&nbsp;», traduction moderne d’une architecture parlante et symbolique sur plus de 3 500 m². </p>
+            <p>Après plusieurs avant-projets, il conçoit un projet qualifié de «&nbsp;parti architectural&nbsp;», traduction moderne d’une architecture parlante et symbolique sur plus de 3 500 m².&nbsp;</p>
     </section>
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
       <h2>L’implantation à Bordeaux, un choix politique</h2>
@@ -39,7 +39,7 @@
 
       <h2>Une architecture de style “V<sup>e</sup>&nbsp;République”</h2>
       <p>Les travaux de construction débutent en 1971 et sont conduits avec une rapidité étonnante. En juillet 1972, le gros œuvre de béton armé des deux ailes, les piliers, la corniche de la salle des pas perdus et la charpente sont achevés. L’aménagement intérieur est réalisé entre septembre 1972 et le début de l’année 1973. </p>
-      <p> Au cœur de l’École, une vaste salle des pas perdus permet la liaison entre les différentes parties du bâtiment ; à l’instar de celles des palais de justice elle est un lieu de rencontres, de débats, de discussion et de déambulation de «&nbsp;l’académie socratique&nbsp;» définie par Gillet. </p>
+      <p> Au cœur de l’École, une vaste salle des pas perdus permet la liaison entre les différentes parties du bâtiment&nbsp;; à l’instar de celles des palais de justice elle est un lieu de rencontres, de débats, de discussion et de déambulation de «&nbsp;l’académie socratique&nbsp;» définie par Gillet. </p>
 
       <ImageViolet 
       :img="Salle"
@@ -95,18 +95,19 @@ import CardPersonnage from '@/components/CardPersonnage.vue';
 import EncartGris from '@/components/EncartGris.vue';
 import EncartViolet from '@/components/EncartViolet.vue';
 import ImageViolet from '@/components/ImageViolet.vue';
-import TourDesAnglais from '@/assets/Images/Illustrations/TourDesAnglais.svg'
-import TourDesMinimes from '@/assets/Images/Illustrations/TourDesMinimes.svg'
-import BassinMinimes from '@/assets/Images/Illustrations/Bassin+Minimes.svg'
-import Richard from '@/assets/Images/Portraits/Richard_Rogers.webp'
-import Bassin from '@/assets/Images/banner/Bassin.webp'
-import Gillet from '@/assets/Images/Portraits/Guillaume Gillet.webp'
-import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
+import TourDesAnglais from '@/assets/Images/Illustrations/TourDesAnglais.svg';
+import TourDesMinimes from '@/assets/Images/Illustrations/TourDesMinimes.svg';
+import BassinMinimes from '@/assets/Images/Illustrations/Bassin+Minimes.svg';
+import Richard from '@/assets/Images/Portraits/Richard_Rogers.webp';
+import Bassin from '@/assets/Images/banner/Bassin.webp';
+import Gillet from '@/assets/Images/Portraits/Guillaume Gillet.webp';
+import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp';
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Etape1 from '@/assets/Images/generales/etape5.1.webp';
 import Etape2 from '@/assets/Images/generales/etape 5.2.webp';
 import Etape3 from '@/assets/Images/generales/etape5.3.webp';
 import Etape4 from '@/assets/Images/generales/etape 5.4.webp';
+import Situation from '@/components/SituationCard.vue';
 
 const listImages = [
   {img: Etape1, alt: 'Photo de la démolition côté tour des minimes'},

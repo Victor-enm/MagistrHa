@@ -12,18 +12,18 @@
         etape="01/07"
         />
         <h1>Plongez au cœur de l’histoire et de la justice bordelaise !</h1>
-            <p>Saviez-vous qu’au sein des vestiges du fort du Hâ, en plein centre de Bordeaux, se trouve une institution unique en France ? Depuis 1958, l’École nationale de la magistrature, grande École de la République, forme l’ensemble des juges et procureurs français dans ce lieu chargé d’histoire.</p>
+            <p>Saviez-vous qu’au sein des vestiges du fort du Hâ, en plein centre de Bordeaux, se trouve une institution unique en France ? Depuis 1958, l’École nationale de la magistrature, grande École de la République, forme l’ensemble des juges et procureurs français dans ce lieu chargé d’histoire.</p>
             <h2>1456</h2>
-            <p>L’histoire du site débute au XVe siècle : c’est en 1456, sur ordre du roi Charles VII, que commence la construction du fort du Hâ, une imposante forteresse destinée à défendre la ville après la fin de la guerre de Cent Ans. </p>
+            <p>L’histoire du site débute au XVe siècle : c’est en 1456, sur ordre du roi Charles VII, que commence la construction du fort du Hâ, une imposante forteresse destinée à défendre la ville après la fin de la guerre de Cent Ans.&nbsp;</p>
             <ScrollHorizontal>
               <CardImage v-for="(item, i) in listImages" :key="'a'+i" :img="item.img"  :alt="item.alt" />
             </ScrollHorizontal>
             
-            <p>Au fil des siècles, le fort se transforme : palais ducal, prison, tribunal, puis enfin école nationale. Aujourd’hui, il incarne l’alliance de l’excellence et de la pédagogie, du patrimoine et de l’architecture contemporaine, unissant l’histoire et la modernité au service de la justice française.</p>
+            <p>Au fil des siècles, le fort se transforme : palais ducal, prison, tribunal, puis enfin école nationale. Aujourd’hui, il incarne l’alliance de l’excellence et de la pédagogie, du patrimoine et de l’architecture contemporaine, unissant l’histoire et la modernité au service de la justice française.</p>
     </section>
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
         <h2>Un site emblématique devenu un symbole de justice</h2>
-        <p>Aujourd’hui, les vestiges du fort du Hâ s’intègrent dans un ensemble architectural audacieux où coexistent trois institutions majeures de la justice bordelaise :</p>
+        <p>Aujourd’hui, les vestiges du fort du Hâ s’intègrent dans un ensemble architectural audacieux où coexistent trois institutions majeures de la justice bordelaise :</p>
         <div class="py-6"><TimeLine
       v-for="(item, index) in timeline"
       :key="index"
@@ -34,11 +34,11 @@
     /></div>
 
     <EncartViolet>
-        <p>L’origine du fort du Hâ provient du gascon «&nbsp;Far&nbsp;» (qui signifie Phare ou Guet). Le nom a dérivé pour une raison de prononciation puisque le «&nbsp;f&nbsp;» à l’époque se disait «&nbsp;h&nbsp;» et le «&nbsp;r&nbsp;» était souvent aspiré. Par usage et habitude, on oublia le Château du Far pour le Château du Hâ.</p>
+        <p>L’origine du fort du Hâ provient du gascon «&nbsp;Far&nbsp;» (qui signifie Phare ou Guet). Le nom a dérivé pour une raison de prononciation puisque le «&nbsp;f&nbsp;» à l’époque se disait «&nbsp;h&nbsp;» et le «&nbsp;r&nbsp;» était souvent aspiré. Par usage et habitude, on oublia le&nbsp;Château du Far&nbsp;pour le&nbsp;Château du Hâ.</p>
     </EncartViolet>
-    <p class="mt-4">La présence de ces trois institutions sur un même site illustre l’évolution de la justice à Bordeaux, mais aussi les valeurs fondamentales qu’elle incarne : l’autorité, la pédagogie et la transparence.</p>
+    <p class="mt-4">La présence de ces trois institutions sur un même site illustre l’évolution de la justice à Bordeaux, mais aussi les valeurs fondamentales qu’elle incarne : l’autorité, la pédagogie et la transparence.</p>
     <EncartViolet>
-        <p class="mt-4">Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien.</p>
+        <p class="mt-4">Sur le parvis de l’ENM et du Tribunal Judiciaire, les 17 articles de la Déclaration des droits de l’Homme et du citoyen de 1789 sont gravés au sol sur des plaques métalliques, rappelant les principes essentiels de justice et de liberté. Depuis le 8 avril 2022, ce parvis porte temporairement le nom de « Place de l’Ukraine », en hommage au peuple ukrainien.</p>
     </EncartViolet>
 </section>
 <section class="content -mt-5 bg-blanc py-8 px-5 z-10 relative border border-blanc rounded-3xl">
@@ -53,8 +53,8 @@
         label="Visiter le pôle judiciaire de Bordeaux"
         href="https://www.visiter-bordeaux.com/fr/visites-sur-demande/bordeaux-pole-judiciaire.html"
       />
-      <p>Vous pouvez également découvrir l’ENM lors des Journées Européennes du patrimoine. </p>
-      <p>Pour les scolaires de la région Nouvelle-Aquitaine, vous pouvez convenir d’une rencontre à l’ENM pour une explication du mode de recrutement et de formation des juges et procureurs de la République français en contactant l’ENM à l’adresse suivante : <a href="mailto:com.enm@justice.fr" class="underline text-rouge-1">com.enm@justice.fr</a></p>
+      <p>Vous pouvez également découvrir l’ENM lors des Journées Européennes du patrimoine.&nbsp;</p>
+      <p>Pour les scolaires de la région Nouvelle-Aquitaine, vous pouvez convenir d’une rencontre à l’ENM pour une explication du mode de recrutement et de formation des juges et procureurs de la République français en contactant l’ENM à l’adresse suivante&nbsp;: <a href="mailto:com.enm@justice.fr" class="underline text-rouge-1">com.enm@justice.fr</a></p>
 </section>
 <EtMaintenant 
     BgColor="bg-marron"
@@ -79,6 +79,8 @@ import Etape4 from '@/assets/Images/generales/etape 1.4.webp';
 import Etape5 from '@/assets/Images/generales/etape 1.5.webp';
 import Etape6 from '@/assets/Images/generales/etape 1.6.webp';
 import CardImage from '@/components/CardImage.vue';
+import Situation from '@/components/SituationCard.vue'
+import Bouton from '@/components/BoutonRouge.vue'
 
 const timeline = [
   { titre: 'Cour d’appel', description: 'La cour d’appel de Bordeaux, installée dans un palais de justice néoclassique conçu par Joseph-Adolphe Thiac au milieu du XIXe siècle.', img: CourDappel },

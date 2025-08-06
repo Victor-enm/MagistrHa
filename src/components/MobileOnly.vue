@@ -5,14 +5,17 @@
       <slot />
     </div>
     <div v-else class="flex flex-col items-center justify-center min-h-screen text-center p-4 bg-gray-100">
-      <h1 class="text-2xl font-semibold text-red-600 mb-4">Application non disponible sur ordinateur</h1>
-      <p class="text-gray-700">Merci de consulter cette application depuis un appareil mobile.</p>
+      <h1 class="font-semibold text-rouge-1">Application non disponible sur ordinateur</h1>
+      <p class="text-noir">Bonjour ! Cette application est conçue pour être utilisée sur votre téléphone.<br>Pour une meilleure expérience, veuillez la consulter depuis un appareil mobile.</p>
+      <p>Scannez ce QR Code avec l'appareil photo de votre téléphone pour accéder à l'application.</p>
+      <img :src="QRcode" class="mt-6 w-3xl" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import QRcode from '@/assets/Images/generales/Arborial.webp'
 
 const isMobile = ref(window.innerWidth <= 768)
 

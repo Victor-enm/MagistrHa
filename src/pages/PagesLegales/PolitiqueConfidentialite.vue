@@ -8,41 +8,41 @@
 
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
         <h1>Politique de confidentialité</h1>
-        <p>L'Ecole nationale de la magistrature s'engage à ce que la collecte et le traitement de vos données, effectués à partir du site XXXX, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.</p>
+        <h2>1. Introduction</h2>
+        <p>La présente politique de confidentialité a pour objectif de vous informer de la manière dont vos données sont traitées dans le cadre de l’utilisation de l'application mobile Magistr'Hâ.<br><br>
 
-        <h2>À qui sont destinées vos données ?</h2>
-        <p>L'ENM, situé au 10 rue des frères Bonnie à Bordeaux (33000) est responsable du traitement des données personnelles pour le site XXXX.<br><br>
-Sauf mention contraire, les données personnelles qui y sont collectées sont destinées à un usage interne et n’ont pas vocation à être partagées avec des tiers en dehors des cas prévus par les lois et règlements.</p>
+L'application Magistr'Hâ a été conçue pour respecter la vie privée de ses utilisateurs. Elle ne collecte, ne stocke et ne traite aucune donnée personnelle vous concernant.</p>
+        
+<h2>2. Données non collectées</h2>
+<p>L'application Magistr'Hâ ne demande ni ne collecte aucune information personnelle telle que votre nom, adresse e-mail, numéro de téléphone ou position géographique.</p>
 
-        <h2>À quoi servent vos données ?</h2>
-          <p>
-Les traitements de données personnelles mis en œuvre par l'ENM, sur la base des missions d'intérêt public dont elle est investie, ont pour finalités de :
+<h2>3. Renvois vers des sites externes
+</h2>
+<p>L'application peut contenir des liens vers des sites web externes (par exemple, YouTube). Lorsque vous cliquez sur ces liens, vous quittez l'application et vous êtes soumis aux politiques de confidentialité de ces sites tiers. Nous vous encourageons à les consulter pour connaître leurs pratiques en matière de traitement des données. L'ENM n'est pas responsable du contenu ni des pratiques de confidentialité de ces sites externes.
+
 </p>
-<ul>
-  <li>assurer le bon fonctionnement du site et améliorer votre expérience de navigation.</li>
-</ul>
-        <h2>Établissement de cette déclaration d‘accessibilité</h2>
 
+<h2>4. Mesure d'audience avec Matomo
+</h2>
+<p>Afin d'analyser l'utilisation de l'application et d'améliorer l'expérience utilisateur, l'ENM utilise le service d'analyse d'audience Matomo Cloud.<br>
 
-        <h2>Outils pour évaluer l‘accessibilité</h2>
+Cette mesure d'audience est configurée de manière à ne collecter aucune donnée personnelle identifiante. En particulier :<br>
 
+<BulletFleche>Les adresses IP sont anonymisées (partiellement masquées).</BulletFleche>
+<BulletFleche>Aucun cookie n'est utilisé pour suivre les utilisateurs.</BulletFleche>
+<BulletFleche>Aucune donnée n'est croisée ou reliée à des informations personnelles.</BulletFleche>
 
-        <h2>Pages ayant fait l‘objet de la vérification de conformité :</h2>
+L'objectif de cette analyse est purement statistique et ne permet en aucun cas d'identifier les utilisateurs individuellement.</p>
+    
 
+    <h2>5. Vos droits</h2>
+    <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez de droits sur vos données. Cependant, comme l'application Magistr'Hâ ne collecte aucune donnée personnelle, l'exercice de ces droits (droit d'accès, de rectification, d'effacement, etc.) n'est pas applicable.</p>
 
-        <h2>Retour d’information et contact</h2>
-        <h2>Défenseur des droits</h2>
-        <p>Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse rapide de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.</p>
-        <p>Plusieurs moyens sont à votre disposition :</p>
-        <ul>
-          <li>un formulaire de contact</li>
-          <li>la liste des délégués près de chez vous avec leurs informations de contact directs</li>
-          <li>un numéro de téléphone : le 09 69 39 00 00 du lundi au vendredi de 8h00 à 20h00 (coût d’un appel local)</li>
-          <li>une adresse postale dans l’annuaire de l’administration</li>
-        </ul>
-    </section>
-      
-  </div>
+    <h2>6. Contact</h2>
+    <p>Pour toute question concernant cette politique de confidentialité, vous pouvez contacter l'École Nationale de la Magistrature à l'adresse suivante : <a href="mailto:dpo.enm@justice.fr" class="underline">dpo.enm@justice.fr</a>.</p>
+  
+
+  </section></div>
 </template>
 
 <script setup>

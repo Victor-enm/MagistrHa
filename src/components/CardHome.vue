@@ -23,9 +23,7 @@
 </template>
 
 <script setup>
-import Fleche from '../assets/icons/Fleche.svg'
-import Localisation from '../assets/icons/Localisation.svg'
-import Bouton from './bouton.vue';
+import Bouton from './BoutonRouge.vue';
 
 defineProps({
   title: String,

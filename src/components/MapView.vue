@@ -1,6 +1,6 @@
 <template>
   <div id="map-container">
-    <img :src="Map" alt="Plan" id="map-image" loading="lazy"/>
+    <img :src="mapSrc" alt="Plan" id="map-image" loading="lazy"/>
     <!-- Points -->
     <div
       class="point"
@@ -33,6 +33,7 @@ import Map from '@/assets/Plan_ENM_Bordeauxv2.png'
 export default {
   data() {
     return {
+      mapSrc: Map,
       popup: {
         visible: false,
         title: "",

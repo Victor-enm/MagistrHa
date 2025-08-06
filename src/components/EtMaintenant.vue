@@ -19,7 +19,7 @@
     </section>
 </template>
     <script setup>
-import Bouton from './bouton.vue';
+import Bouton from './BoutonRouge.vue';
 
 
 defineProps({

@@ -19,6 +19,12 @@
         <p class="italic underline"><router-link to="/legales/mentions-legales">Mentions légales</router-link></p>
         <p class="italic underline"><router-link to="/legales/accessibilite">Accessibilité</router-link></p>
         <p class="italic underline"><router-link to="/legales/politique-de-confidentialite">Politique de confidentiaité</router-link></p>
+
+        <h2>Conception et développement</h2>
+        <BulletFleche>Éditeur de l'application : École nationale de la magistrature </BulletFleche>
+        <BulletFleche>Développement : Victor Prudhon</BulletFleche>
+        <BulletFleche>Destign graphique : <a href="https://www.alexandregay.fr/" targer="_blank" class="underline text-violet-3">Alexandre Gay</a></BulletFleche>
+
     </section>
       
   </div>
@@ -27,6 +33,7 @@
 <script setup>
 import ParallaxHeader from '@/components/ParallaxHeader.vue';
 import Banner from '@/assets/Images/banner/Accueil&APropos.webp';
+import BulletFleche from '@/components/BulletFleche.vue';
 
 
 

@@ -1,20 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../pages/Home.vue';
-import Apropos from '../pages/Apropos.vue';
-import Parcours from '../pages/Parcours.vue';
+import Home from '../pages/HomePage.vue';
+import Apropos from '../pages/AProposView.vue';
+import Parcours from '../pages/ParcoursView.vue';
 import Scan from '../pages/ScanView.vue';
-import Ecole from '../pages/Ecole.vue';
+import Ecole from '../pages/EcoleView.vue';
 import EntreeEcole from '../pages/PagesQrCodes/EntreeEcole.vue';
 import TourDesSorcieres from '../pages/PagesQrCodes/TourDesSorcieres.vue';
 import TourDesMinimes from '../pages/PagesQrCodes/TourDesMinimes.vue';
 import MonumentAuxMorts from '../pages/PagesQrCodes/MonumentAuxMorts.vue';
-import Bassin from '../pages/PagesQrCodes/Bassin.vue';
-import Amphitheatre from '../pages/PagesQrCodes/Amphitheatre.vue';
+import Bassin from '../pages/PagesQrCodes/BassinENM.vue';
+import Amphitheatre from '../pages/PagesQrCodes/AmphitheatreENM.vue';
 import SalleDesPasPerdus from '../pages/PagesQrCodes/SalleDesPasPerdus.vue';
-import Accessibilite from '../pages/PagesLegales/Accessibilite.vue';
+import Accessibilite from '../pages/PagesLegales/AccessibiliteView.vue';
 import MentionsLegales from '../pages/PagesLegales/MentionsLegales.vue';
 import PolitiqueConfidentialite from '../pages/PagesLegales/PolitiqueConfidentialite.vue';
-import Erreur from '../pages/404.vue'
+import Erreur from '../pages/NotFound.vue'
 
 
 const routes = [
@@ -169,7 +169,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         el: to.hash,
@@ -194,7 +194,7 @@ router.beforeEach((to, from, next) => {
   next()
 });
 
-router.afterEach((to) => {
+router.afterEach(() => {
   if (window._paq) {
     window._paq.push(['setCustomUrl', window.location.href])
     window._paq.push(['setDocumentTitle', document.title])

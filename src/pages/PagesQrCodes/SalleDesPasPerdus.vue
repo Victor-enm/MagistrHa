@@ -11,7 +11,7 @@
         position="Salle des pas perdus"
         etape="07/07"
         />
-        <h1>La salle des pas perdus : un lieu de rencontres, d’échanges et de débats</h1>
+        <h1>La salle des pas perdus&nbsp;: un lieu de rencontres, d’échanges et de débats</h1>
             <p>L’ENM est l’unique école de formation des magistrats de l’ordre judiciaire français, assurant la formation initiale des élèves magistrats et des publics spécialisés, ainsi que la formation continue des magistrats en exercice et de magistrats étrangers dans le cadre de coopérations.</p>
           <div class="py-6"><TimeLine
       v-for="(item, index) in timeline"
@@ -25,14 +25,14 @@
         <CardImage v-for="(item, i) in listImages" :key="'a'+i" :img="item.img"  :alt="item.alt" />
       </ScrollHorizontal>
 
-    <p>L’ENM dispose également d’un second site historique sur l’île de la Cité à Paris, dans un bâtiment du XIXe siècle, situé entre le quai aux fleurs et la rue Chanoinesse, qui accueillait autrefois l’état-major des pompiers de Paris. </p>
+    <p>L’ENM dispose également d’un second site historique sur l’île de la Cité à Paris, dans un bâtiment du XIXe siècle, situé entre le quai aux fleurs et la rue Chanoinesse, qui accueillait autrefois l’état-major des pompiers de Paris.&nbsp;</p>
 
     <ImageViolet
     :img="Paris"
     alt="Photo du batiment de l'ENM Paris"
     />
     <p>À la suite des annonces de l’État d’un recrutement historique de +1500 magistrats supplémentaire d’ici à 2027, l’ENM a inauguré en 2024 deux nouveaux bâtiments. </p>
-    <p>À Bordeaux, boulevard Godard ; le site Archipel, qui accueille la moitié des auditeurs de justice de chaque promotion, est conçu pour porter une attention particulière à l’écologie et à la lumière naturelle.</p>
+    <p>À Bordeaux, boulevard Godard&nbsp;; le site Archipel, qui accueille la moitié des auditeurs de justice de chaque promotion, est conçu pour porter une attention particulière à l’écologie et à la lumière naturelle.</p>
 
     <ImageViolet
     :img="Archipel"
@@ -54,8 +54,6 @@
 </template>
 
 <script setup>
-import BulletFleche from '@/components/BulletFleche.vue';
-import EncartViolet from '@/components/EncartViolet.vue';
 import ImageViolet from '@/components/ImageViolet.vue';
 import TimeLine from '@/components/TimeLine.vue';
 import Salle from '@/assets/Images/banner/Salle-des-pas-perdus2.webp'
@@ -67,10 +65,11 @@ import Etape1 from '@/assets/Images/generales/etape 7.1.webp';
 import Etape2 from '@/assets/Images/generales/etape 7.3.webp';
 import Etape3 from '@/assets/Images/generales/etape 7.4.webp';
 import Etape4 from '@/assets/Images/generales/etape 7.5.webp';
+import Situation from '@/components/SituationCard.vue';
 
 const timeline = [
-  { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité. ' },
-  { titre: '1960', description: 'Après une année expérimentale à Paris, le Centre est transféré à Bordeaux en 1960, grâce à l’implication de Jacques Chaban-Delmas, alors maire de la ville et président de l’Assemblée nationale. ' },
+  { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité.&nbsp;' },
+  { titre: '1960', description: 'Après une année expérimentale à Paris, le Centre est transféré à Bordeaux en 1960, grâce à l’implication de Jacques Chaban-Delmas, alors maire de la ville et président de l’Assemblée nationale.&nbsp;' },
   { titre: '1972', description: 'D’abord installée cours Xavier Arnozan, l’École prend le nom d’École nationale de la magistrature en 1972 et s’établit définitivement sur le site du fort du Hâ, près du Palais de Justice.' },
 ]
 

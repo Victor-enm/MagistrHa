@@ -3,24 +3,31 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 import Components from 'unplugin-vue-components/vite'
 import svgLoader from 'vite-svg-loader'
-import path from 'path'
+import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
 
-// https://vite.dev/config/
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
 export default defineConfig({
   plugins: [
     vue(),
     tailwindcss(),
     svgLoader(),
-     Components({
-      dirs: ['src/components'], // répertoire à scanner
+    Components({
+      dirs: ['src/components'],
       extensions: ['vue'],
-      deep: true, // cherche aussi dans les sous-dossiers
-      dts: false, // tu peux mettre true si tu veux générer un fichier de types
+      deep: true,
+      dts: false,
     }),
   ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+  },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src')
-    }
-  }  
+      '@': resolve(__dirname, './src'),
+    },
+  },
 })

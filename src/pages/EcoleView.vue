@@ -21,7 +21,7 @@
                 link="https://www.youtube.com/watch?v=6uGzwPzRWLA"
                 />
             <h2>Plongez dans l’émotion de la prestation de serment des élèves magistrats de la <span class="text-rouge-1">Promotion État de Droit</span> 
-de l’ENM !</h2>
+de l’ENM&nbsp;!</h2>
                 <p>Cet aftermovie immortalise les moments les plus forts de cette journée d’importance pour l’institution judiciaire.</p>
                 <ImageViolet
                 :img="Aftermovie"
@@ -63,7 +63,7 @@ de l’ENM !</h2>
 </template>
 
 <script setup>
-import Bouton from '@/components/bouton.vue';
+import Bouton from '@/components/BoutonRouge.vue';
 import BulletFleche from '@/components/BulletFleche.vue';
 import EncartRouge from '@/components/EncartRouge.vue';
 import ImageViolet from '@/components/ImageViolet.vue';

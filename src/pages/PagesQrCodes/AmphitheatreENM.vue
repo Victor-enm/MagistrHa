@@ -13,7 +13,7 @@
         />
         <h1>Amphithéâtre Simone Veil&nbsp;: L'héritage d'une femme d'exception au cœur de la formation</h1>
             <p>Intégrer l’ENM, c’est s’engager dans une formation exigeante, enrichie de fortes expériences humaines. Les formations, initiales ou continues, sont conçues de façon transversale pour développer et renforcer les compétences des magistrats, quelle que soit leur fonction. La pédagogie privilégie d’abord les savoirs communs, permettant d’apprendre à être magistrat avant de se spécialiser.</p>
-            <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi&nbsp;: </p>
+            <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi&nbsp;: </p>
             <BulletFleche class="mt-2">Cours en petits groupes sur de vrais dossiers</BulletFleche>
             <BulletFleche>Tables rondes</BulletFleche>
             <BulletFleche>Simulations</BulletFleche>
@@ -26,9 +26,9 @@
             <BulletFleche>Médecine légale</BulletFleche>
             <BulletFleche>Criminologie</BulletFleche>
 
-            <p>Les élèves alternent également avec de nombreuses périodes de stages (70 % de la formation totale) en cabinets d’avocats, services d’enquête ou juridictions.</p>
-            <p>L’ENM accompagne également plus de 9 000 magistrats en exercice via la formation continue, leur permettant de renforcer leurs compétences et de se spécialiser tout au long de leur carrière.</p>
-            <p>Près de 2 600 magistrats et professionnels, issus des secteurs public et privé, interviennent dans plus de 600 sessions, colloques, conférences et stages, organisés à Paris et en région via la formation continue déconcentrée dans les cours d’appel.</p>
+            <p>Les élèves alternent également avec de nombreuses périodes de stages (70 % de la formation totale) en cabinets d’avocats, services d’enquête ou juridictions.</p>
+            <p>L’ENM accompagne également plus de 9 000 magistrats en exercice via la formation continue, leur permettant de renforcer leurs compétences et de se spécialiser tout au long de leur carrière.</p>
+            <p>Près de 2 600 magistrats et professionnels, issus des secteurs public et privé, interviennent dans plus de 600 sessions, colloques, conférences et stages, organisés à Paris et en région via la formation continue déconcentrée dans les cours d’appel.</p>
             <p>Depuis sa création l’ENM s’est ouverte à l’international pour moderniser la formation des magistrats à travers le monde. </p>
     </section>
     <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
@@ -49,7 +49,7 @@
       alt="Photo de Simone Veil"
       />
       <p>Déportée à 16 ans à Auschwitz-Birkenau, Simone Veil survit aux camps de concentration avant de réussir le concours de la magistrature en 1956.</p>
-      <p>Elle entame alors une brillante carrière de haut fonctionnaire, marquée par son engagement : inspectrice de l’administration pénitentiaire, elle lutte pour améliorer les conditions de vie des détenues en France et en Algérie.</p>
+      <p>Elle entame alors une brillante carrière de haut fonctionnaire, marquée par son engagement : inspectrice de l’administration pénitentiaire, elle lutte pour améliorer les conditions de vie des détenues en France et en Algérie.</p>
 
       <h2>1974</h2>
       <p>En 1974, nommée ministre de la Santé, elle fait adopter la loi Veil, qui dépénalise l’interruption volontaire de grossesse (IVG).</p>
@@ -66,9 +66,10 @@
 <script setup>
 import CardPersonnage from '@/components/CardPersonnage.vue';
 import BulletFleche from '@/components/BulletFleche.vue';
-import Bouton from '@/components/bouton.vue';
-import Banner from '@/assets/Images/banner/Amphi.webp'
-import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp'
+import Bouton from '@/components/BoutonRouge.vue';
+import Banner from '@/assets/Images/banner/Amphi.webp';
+import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp';
 import EtMaintenant from '@/components/EtMaintenant.vue';
+import Situation from '@/components/SituationCard.vue';
 
 </script>

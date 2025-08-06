@@ -12,7 +12,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const props = defineProps({
+defineProps({
   imageUrl: { type: String, required: true },
   imageAlt: { type: String, default: 'Image de parallaxe' },
   height: { type: String, default: '64vh' },

@@ -13,11 +13,6 @@
  
    <p>L’École nationale de la magistrature occupe un site historique qui présente la double particularité d’être un lieu de justice depuis plus de cinq siècles en même temps qu’un monument clé de l’histoire de Bordeaux.</p>
 
-<!--<Bouton
-        label="Commencer votre visite"
-        to="/parcours"
-        class="mb-6"
-      />-->
       </section>
       <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
         <h2 id="map">Explorez l'École</h2>
@@ -97,7 +92,7 @@ import Bassin from '@/assets/Images/banner/Bassin.webp'
 import Amphi from '@/assets/Images/banner/Amphi.webp'
 import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
 import Sorciere from '@/assets/Images/banner/Sorciere.webp'
-import Bouton from '@/components/bouton.vue';
+import Bouton from '@/components/BoutonRouge.vue';
 import BulletFleche from '@/components/BulletFleche.vue';
 import ParallaxHeader from '@/components/ParallaxHeader.vue';
 
