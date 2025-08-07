@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import Map from '../src/components/Map.vue'
+import Map from '../src/components/MapView.vue'
 
 describe('Map.vue', () => {
   it('initialise la popup comme invisible', () => {
