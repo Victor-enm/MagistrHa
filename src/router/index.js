@@ -14,6 +14,7 @@ import SalleDesPasPerdus from '../pages/PagesQrCodes/SalleDesPasPerdus.vue';
 import Accessibilite from '../pages/PagesLegales/AccessibiliteView.vue';
 import MentionsLegales from '../pages/PagesLegales/MentionsLegales.vue';
 import PolitiqueConfidentialite from '../pages/PagesLegales/PolitiqueConfidentialite.vue';
+import Maintenance from '../pages/UpdateView.vue';
 import Erreur from '../pages/NotFound.vue'
 
 
@@ -25,6 +26,15 @@ const routes = [
     meta: {
       title: 'Accueil – Magistr’ha',
       description: 'Bienvenue sur la plateforme mobile Magistr’ha.',
+    },
+  },
+  {
+    path: '/maintenance',
+    name: 'Maintenance',
+    component: Maintenance,
+    meta: {
+      title: 'Maintenance – Magistr’ha',
+      description: 'Découvrez le projet historique mobile Magistr’ha.',
     },
   },
   {
