@@ -39,7 +39,7 @@ import Salle from '@/assets/Images/banner/Salle-des-pas-perdus.webp'
 import Sorciere from '@/assets/Images/banner/Sorciere3.webp'
 
 const cardsParcours1 = [
-  { title: 'Plongez au cœur de l’histoire et de la justice !', position: 'Entrée de l’École', img: Entree, alt: 'Entrée de l ecole nationale de la magistrature', link:'/qr/entree-de-l-ecole'},
+  { title: 'Plongez au cœur de l’histoire et de la justice&nbsp;!', position: 'Entrée de l’École', img: Entree, alt: 'Entrée de l ecole nationale de la magistrature', link:'/qr/entree-de-l-ecole'},
 ]
 
 const cardsParcours2 = [
