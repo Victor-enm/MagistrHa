@@ -8,20 +8,18 @@
 
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
         <h1>Une grande École de la République</h1>
-            <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>
-                <p>Découvrez en images&nbsp;:</p>
-                <ul class="mt-4">
-                    <BulletFleche>Nos missions</BulletFleche>
-                    <BulletFleche>Nos engagements</BulletFleche>
-                    <BulletFleche>Notre vision pour une justice moderne et accessible</BulletFleche>
-                </ul>
+        <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>                
+
+        <Bouton
+        to="/Ecole/qui-sommes-nous"
+        label="Qui sommes nous&nbsp;?"
+        />
                 <ImageViolet
                 :img="VideoInstit"
                 alt="Couverture de la vidéo institutionnelle"
                 link="https://www.youtube.com/watch?v=6uGzwPzRWLA"
                 />
-            <h2>Plongez dans l’émotion de la prestation de serment des élèves magistrats de la <span class="text-rouge-1">Promotion État de Droit</span> 
-de l’ENM&nbsp;!</h2>
+            <h2>Plongez dans l’émotion de la prestation de serment des élèves magistrats de la <span class="text-rouge-1">Promotion État de Droit</span> de l’ENM&nbsp;!</h2>
                 <p>Cet aftermovie immortalise les moments les plus forts de cette journée d’importance pour l’institution judiciaire.</p>
                 <ImageViolet
                 :img="Aftermovie"
@@ -64,7 +62,6 @@ de l’ENM&nbsp;!</h2>
 
 <script setup>
 import Bouton from '@/components/BoutonRouge.vue';
-import BulletFleche from '@/components/BulletFleche.vue';
 import EncartRouge from '@/components/EncartRouge.vue';
 import ImageViolet from '@/components/ImageViolet.vue';
 import ParallaxHeader from '@/components/ParallaxHeader.vue';

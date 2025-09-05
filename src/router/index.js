@@ -11,6 +11,7 @@ import MonumentAuxMorts from '../pages/PagesQrCodes/MonumentAuxMorts.vue';
 import Bassin from '../pages/PagesQrCodes/BassinENM.vue';
 import Amphitheatre from '../pages/PagesQrCodes/AmphitheatreENM.vue';
 import SalleDesPasPerdus from '../pages/PagesQrCodes/SalleDesPasPerdus.vue';
+import QuiSommesNous from '../pages/QuiSommesNous.vue';
 import Accessibilite from '../pages/PagesLegales/AccessibiliteView.vue';
 import MentionsLegales from '../pages/PagesLegales/MentionsLegales.vue';
 import PolitiqueConfidentialite from '../pages/PagesLegales/PolitiqueConfidentialite.vue';
@@ -71,6 +72,15 @@ const routes = [
     meta: {
       title: 'L’École – Magistr’ha',
       description: 'Présentation de l’École nationale de la magistrature.',
+    },
+  },
+  {
+    path: '/Ecole/qui-sommes-nous',
+    name: 'Qui sommes nous ?',
+    component: QuiSommesNous,
+    meta: {
+      title: 'Qui sommes nous ? – Magistr’ha',
+      description: 'Présentation de l’École nationale de la magistrature et de la direction.',
     },
   },
   {
