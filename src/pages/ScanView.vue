@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen p-4">
-    <h1 class="text-xl font-bold mb-4">Scanner un QR Code</h1>
+  <div class="flex flex-col items-center justify-center h-screen -mt-18 p-4">
+    <h1 class="text-xl font-bold mb-4 text-violet-3">Scanner un QR Code</h1>
     <div id="reader" class="w-full max-w-md"></div>
     <p v-if="error" class="text-red-500 mt-4">{{ error }}</p>
   </div>
@@ -57,10 +57,10 @@ onBeforeUnmount(() => {
 <style scoped>
 #reader {
   width: 100%;
-  max-width: 400px;
-  aspect-ratio: 1 / 1;
-  border: 2px dashed #ccc;
+  max-width: 390px;
+  aspect-ratio: 193 / 145;
+  border: 2px dashed #40173F;
   border-radius: 8px;
-  height: 300px;
+  max-height: 400px;
 }
 </style>
