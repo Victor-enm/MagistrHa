@@ -35,7 +35,7 @@
     <div class="mt-3">
         <div class="flex items-center gap-1 whitespace-normal">
             <Fleche class="w-7.5 h-7.5 shrink-0 self-start" role="presentation" aria-hidden="true"/>
-            <p class="mt-0 block min-w-0 w-full break-words leading-snug flex-1 font-MtItalic text-base">Nathalie Roret<br>Directrice de l'ENM</p>
+            <p class="mt-0 block min-w-0 w-full break-words leading-snug flex-1 font-MtItalic text-base mb-2">Nathalie Roret<br>Directrice de l'ENM</p>
         </div>
     </div>
     </div>

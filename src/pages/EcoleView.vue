@@ -7,13 +7,14 @@
     />
 
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
-        <h1>Une grande École de la République</h1>
-        <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>                
-
+      <h1>Une grande École de la République</h1>
+      <p>Depuis sa création, notre institution œuvre avec rigueur et engagement au service de l’intérêt général. Découvrez ce qui fonde notre action et ce qui nous distingue.</p>
         <Bouton
         to="/Ecole/qui-sommes-nous"
         label="Qui sommes nous&nbsp;?"
         />
+      <h2>L’ENM comme vous ne l’avez jamais vue ! </h2>                
+
                 <ImageViolet
                 :img="VideoInstit"
                 alt="Couverture de la vidéo institutionnelle"
