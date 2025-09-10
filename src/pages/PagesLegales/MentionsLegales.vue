@@ -21,9 +21,10 @@ L’ENM est un établissement public administratif placé sous la tutelle du min
         <p>L’application mobile <strong>Magistr'Hâ</strong> est hébergée par la plateforme Netlify.<br>
 Le code source de l’application est disponible en open-source sur la plateforme GitHub.</p>
         <h2>Propriété intellectuelle</h2>
-        <p>L'ensemble du contenu de l'application mobile Magistr'Hâ (textes, images, vidéos, etc.) est la propriété de l'École Nationale de la Magistrature ou de ses partenaires, sauf mention contraire. Toute reproduction, représentation, modification, publication, transmission ou dénaturation, totale ou partielle, est strictement interdite et constitutive d’une contrefaçon sanctionnée par le Code de la propriété intellectuelle.
+        <p>L'ensemble du contenu de l'application mobile Magistr'Hâ (textes, images, vidéos, etc.) est la propriété de l'École Nationale de la Magistrature ou de ses partenaires, sauf mention contraire. Toute reproduction, représentation, modification, publication, transmission ou dénaturation, totale ou partielle, est strictement interdite et constitutive d’une contrefaçon sanctionnée par le Code de la propriété intellectuelle.</p>
 
-</p>
+        <h2>Crédits</h2>
+        <p>Remerciements à notre cheffe de projet Lella-Marie Desplats, sa méthodologie et son dévouement ont été essentiels pour mener ce projet à bien. Nous tenons également à exprimer notre gratitude à Florence Deyts pour la relecture et la recherche des textes historiques qui enrichissent ce projet. Enfin, un grand merci à tous nos bêta-testeurs pour leurs précieux retours. Votre participation active a permis d'améliorer la qualité et l'expérience utilisateur.</p>
 
     </section>
       

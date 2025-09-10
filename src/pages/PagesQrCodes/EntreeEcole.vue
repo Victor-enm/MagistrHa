@@ -11,7 +11,7 @@
         position="Entrée de l'école"
         etape="01/07"
         />
-        <h1>Plongez au cœur de l’histoire et de la justice bordelaise !</h1>
+        <h1>Plongez au cœur de l’histoire et de la justice&nbsp;!</h1>
             <p>Saviez-vous qu’au sein des vestiges du fort du Hâ, en plein centre de Bordeaux, se trouve une institution unique en France ? Depuis 1958, l’École nationale de la magistrature, grande École de la République, forme l’ensemble des juges et procureurs français dans ce lieu chargé d’histoire.</p>
             <h2>1456</h2>
             <p>L’histoire du site débute au XVe siècle : c’est en 1456, sur ordre du roi Charles VII, que commence la construction du fort du Hâ, une imposante forteresse destinée à défendre la ville après la fin de la guerre de Cent Ans.&nbsp;</p>

@@ -1,5 +1,6 @@
 <template>
-  <div class="parallax-container">
+  <div class="parallax-container flex justify-center">
+    <Logo v-if="$route.name === 'Home'" class="w-15 h-15 mt-3"/>
     <img
       :src="imageUrl"
       :alt="imageAlt"
@@ -11,6 +12,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import Logo from '../assets/icons/Logo_aubergine.svg'
 
 defineProps({
   imageUrl: { type: String, required: true },

@@ -23,7 +23,7 @@
         <h2>Conception et développement</h2>
         <BulletFleche>Éditeur de l'application : École nationale de la magistrature </BulletFleche>
         <BulletFleche>Développement : Victor Prudhon</BulletFleche>
-        <BulletFleche>Destign graphique : <a href="https://www.alexandregay.fr/" targer="_blank" class="underline text-violet-3">Alexandre Gay</a></BulletFleche>
+        <BulletFleche>Design graphique : <a href="https://www.alexandregay.fr/" targer="_blank" class="underline text-violet-3">Alexandre Gay</a></BulletFleche>
 
     </section>
       

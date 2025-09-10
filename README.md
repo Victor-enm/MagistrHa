@@ -16,7 +16,7 @@ Pensée pour un usage **mobile-first**, elle permet aux visiteurs de **scanner d
 - ✅ Webapp responsive, pensée pour smartphone
 - ✅ Scannez un QR code pour accéder au contenu d’un lieu
 - ✅ Pages dédiées avec textes, images optimisées (WebP, lazy loading)
-- ✅ Carte interactive listant les 10 points d’intérêt
+- ✅ Carte interactive listant les 7 points d’intérêt
 - ✅ SEO dynamique (titre + description par page)
 - ✅ Intégration de Matomo sans cookie (respect du RGPD)
 - ✅ Accessibilité et mentions légales intégrées
@@ -37,7 +37,9 @@ Pensée pour un usage **mobile-first**, elle permet aux visiteurs de **scanner d
 ---
 
 ## 📦 Versionning
-
+- **v1.0** - Release 
+- **v0.9.0**-**v0.9.3** – Intégration des derniers détails, ajout splashscreen, waitingscreen, QRscan double flux 
+- **v0.8.1**-**v0.8.6** – Logo, animation, optimisation 
 - **v0.8** – Finalisation des pages manquantes, intégration des tests unitaires, ajout de nouvelles cartes images
 - **v0.7.2** – Correctifs sur le parallax header & map interactive
 - **v0.7.1** – Ajout de retours utilisateur
