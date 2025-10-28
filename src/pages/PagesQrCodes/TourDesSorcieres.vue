@@ -29,7 +29,7 @@
             <BulletFleche>Prison civile puis politique</BulletFleche>
             <p>Et enfin, depuis 1972, unique lieu de formation des juges et procureurs français.&nbsp;</p>
     </section>
-    <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
+    <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
       <p>L’enceinte du fort était protégée par deux tours principales, inscrites aux monuments historiques, elles subsistent aujourd’hui et témoignent de cette riche histoire&nbsp;:&nbsp;</p>
       <h2>La tour des Anglais</h2>
         <p>Tournée vers la campagne, est reconnaissable à sa forme élancée, en fer à cheval, ses mâchicoulis et ses arbalétrières. Elle permettait de surveiller d’éventuels retours ennemis.</p>

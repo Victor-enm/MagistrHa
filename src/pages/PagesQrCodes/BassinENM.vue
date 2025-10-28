@@ -28,7 +28,7 @@
 
             <p>Après plusieurs avant-projets, il conçoit un projet qualifié de «&nbsp;parti architectural&nbsp;», traduction moderne d’une architecture parlante et symbolique sur plus de 3 500 m².&nbsp;</p>
     </section>
-    <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
+    <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
       <h2>L’implantation à Bordeaux, un choix politique</h2>
       <p>Gillet intègre les nouveaux espaces à l’histoire du site, conservant les deux tours du fort, et privilégie des salles adaptées à l’enseignement en petits groupes, un amphithéâtre de 300 places et une salle de simulation d’audiences.</p>
       <p>Entretemps, l’ENM fut officiellement inaugurée le 12 décembre 1972 en présence du garde des Sceaux René Pleven et du maire de Bordeaux Jacques Chaban-Delmas.</p>
@@ -85,7 +85,7 @@
       </EncartViolet>
     </section>
     <EtMaintenant 
-    BgColor="bg-marron"
+    BgColor="bg-gris-1"
     />
   </div>
 </template>

@@ -44,7 +44,7 @@
     </EncartViolet>
 </section>
 <EtMaintenant 
-    BgColor="bg-marron"
+    BgColor="bg-gris-1"
     />
   </div>
 </template>

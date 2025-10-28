@@ -26,7 +26,7 @@
               <CardPersonnage v-for="(item, i) in cardsPersonnage1" :key="'a'+i" :nom="item.nom" :date="item.date" :img="item.img"  :alt="item.alt"/>
             </ScrollHorizontal>
     </section>
-    <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc ">
+    <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc ">
       <h2>La prison de Thiac</h2>
         <p>En 1835, une grande partie très dégradée du fort est rasée&nbsp;: le corps de logis, le grand donjon, les façades, les échauguettes… Seules les deux tours actuelles sont épargnées.&nbsp;</p>
         <p>Sur l’espace libéré, une nouvelle prison conçue par l’architecte Thiac est inaugurée le 19 novembre 1846. Inspirée du modèle «&nbsp;pennsylvanien&nbsp;» américain, elle impose l’isolement total des détenus, censé favoriser la réflexion sur leurs actes. Par extension, on parle aussi «&nbsp;d’architecture panoptique&nbsp;» pour ce type de prison.</p>

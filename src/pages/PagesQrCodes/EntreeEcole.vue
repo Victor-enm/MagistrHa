@@ -21,7 +21,7 @@
             
             <p>Au fil des siècles, le fort se transforme : palais ducal, prison, tribunal, puis enfin école nationale. Aujourd’hui, il incarne l’alliance de l’excellence et de la pédagogie, du patrimoine et de l’architecture contemporaine, unissant l’histoire et la modernité au service de la justice française.</p>
     </section>
-    <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
+    <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
         <h2>Un site emblématique devenu un symbole de justice</h2>
         <p>Aujourd’hui, les vestiges du fort du Hâ s’intègrent dans un ensemble architectural audacieux où coexistent trois institutions majeures de la justice bordelaise :</p>
         <div class="py-6"><TimeLine
@@ -57,7 +57,7 @@
       <p>Pour les scolaires de la région Nouvelle-Aquitaine, vous pouvez convenir d’une rencontre à l’ENM pour une explication du mode de recrutement et de formation des juges et procureurs de la République français en contactant l’ENM à l’adresse suivante&nbsp;: <a href="mailto:com.enm@justice.fr" class="underline text-rouge-1">com.enm@justice.fr</a></p>
 </section>
 <EtMaintenant 
-    BgColor="bg-marron"
+    BgColor="bg-gris-1"
     />
       
   </div>
