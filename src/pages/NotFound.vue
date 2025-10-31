@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-screen bg-marron">
+  <div class="relative min-h-screen bg-gris-1">
     <section class="content mt-25 py-8 px-5 z-10 relative flex flex-col text-center justify-center items-center">
       <Infos class="w-8 h-8 text-blanc mb-6" role="presentation" aria-hidden="true"/>
         <h1>Oups, page non trouvée&nbsp;!</h1>
