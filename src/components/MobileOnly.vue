@@ -8,14 +8,14 @@
       <h1 class="font-semibold text-violet-3">Application non disponible sur ordinateur</h1>
       <p class="text-noir">Bonjour ! Cette application est conçue pour être utilisée sur votre téléphone.<br>Pour une meilleure expérience, veuillez la consulter depuis un appareil mobile.</p>
       <p>Scannez ce QR Code avec l'appareil photo de votre téléphone pour accéder à l'application.</p>
-      <img :src="QRcode" class="mt-6 w-3xl" />
+      <img :src="QRcode" class="mt-6 w-2xl" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-import QRcode from '@/assets/Images/QRcode/qrCodeDesktop.webp'
+import QRcode from '@/assets/Images/QRcode/Qr_code_1_Magistr-ha_2.webp'
 
 const isMobile = ref(window.innerWidth <= 768)
 
