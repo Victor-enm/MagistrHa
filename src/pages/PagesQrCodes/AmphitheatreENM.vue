@@ -31,7 +31,7 @@
             <p>Près de 2 600 magistrats et professionnels, issus des secteurs public et privé, interviennent dans plus de 600 sessions, colloques, conférences et stages, organisés à Paris et en région via la formation continue déconcentrée dans les cours d’appel.</p>
             <p>Depuis sa création l’ENM s’est ouverte à l’international pour moderniser la formation des magistrats à travers le monde. </p>
     </section>
-    <section class="content bg-marron -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
+    <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc" style="box-shadow: 0px -4px 16px 4px rgba(117, 117, 117, 0.10);">
       <h2>Une École qui rayonne</h2>
       <p>Dès 1960, elle accueille des auditeurs de justice étrangers, affirmant sa vocation d’établissement ouvert, favorisant les échanges et contribuant au rayonnement du modèle français. Elle soutient ainsi le développement institutionnel de pays partenaires et le renforcement de l’État de droit à l’international.</p>
       <p>Enfin, l’ENM forme aussi de nombreux autres professionnels exerçant des fonctions juridictionnelles mais aussi les membres de l’équipe juridictionnelle et collaborateurs de la justice</p>
@@ -58,7 +58,7 @@
       <p>Décédée en 2017, elle entre au Panthéon avec son époux le 1<sup>er</sup> juillet 2018.</p>
     </section>
     <EtMaintenant
-    BgColor="bg-marron"
+    BgColor="bg-gris-1"
     />
   </div>
 </template>
