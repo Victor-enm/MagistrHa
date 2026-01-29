@@ -5,7 +5,9 @@
       imageAlt="vue d'ensemble avec la tour des sorcières"
       height="30vh"
     />
-
+<img
+    :src="Toque" 
+    class="w-8 absolute z-110 rotate-10 ml-75 -mt-10" role="presentation" aria-hidden="true" />
     <section class="content bg-blanc -mt-5 py-8 px-5 z-10 relative border border-blanc rounded-3xl">
         <Situation
         position="Tour des Sorcières"
@@ -68,9 +70,11 @@ import Sorciere from '@/assets/Images/banner/Sorciere3.webp'
 import Minimes from '@/assets/Images/banner/Minimes.webp'
 import CharlesVII from '@/assets/Images/Portraits/CharlesVII.webp'
 import EtMaintenant from '@/components/EtMaintenant.vue';
-import Etape2 from '@/assets/Images/generales/etape 2.1.webp'
-import Etape3 from '@/assets/Images/generales/etape 2.2.webp'
-import Situation from '@/components/SituationCard.vue'
+import Etape2 from '@/assets/Images/generales/etape 2.1.webp';
+import Etape3 from '@/assets/Images/generales/etape 2.2.webp';
+import Situation from '@/components/SituationCard.vue';
+import Toque from '@/assets/icons/toque.webp';
+
 
 const listImages = [
   {img: Sorciere, alt: 'Zoom sur la tour des sorcières'},

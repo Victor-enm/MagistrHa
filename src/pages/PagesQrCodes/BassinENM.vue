@@ -65,7 +65,11 @@
       class="mt-4"
       />
       <EncartViolet>
-        <p>Le souhait de l’architecte était que le bâtiment soit tout en courbes, voutes, rondeurs et circularité&nbsp;: la justice n’est-elle pas là pour «&nbsp;arrondir les angles&nbsp;»&nbsp;?</p>
+        
+        <p>Le souhai<img
+    :src="Toque" 
+    class="w-3 absolute z-1 rotate-10 ml-2" role="presentation" aria-hidden="true" />t de l’architecte était que le bâtiment soit tout en courbes, voutes, rondeurs et circularité&nbsp;: la justice n’est-elle pas là pour «&nbsp;arrondir les angles&nbsp;»&nbsp;?</p>
+        
         <p>Ainsi le toit qui couvre la salle des pas perdus décrit une forme arrondie, il se soulève en son milieu puis se rabaisse et se soulève de nouveau à ses extrémités, formant des ondulations qui apaisent le regard.</p>
       </EncartViolet>
       <p>Rogers s’inscrit dans l’histoire du fort du Hâ, en poursuivant l’intégration d’éléments contemporains par la construction d’une 3<sup>ème</sup> tour de forme carrée (la tour des Minimes est de base circulaire et à la tour des Anglais en forme de fer à cheval) complétant ainsi l’aspect symétrique esquissé par la courbe du bâtiment de Gillet.</p>
@@ -108,6 +112,8 @@ import Etape2 from '@/assets/Images/generales/etape 5.2.webp';
 import Etape3 from '@/assets/Images/generales/etape5.3.webp';
 import Etape4 from '@/assets/Images/generales/etape 5.4.webp';
 import Situation from '@/components/SituationCard.vue';
+import Toque from '@/assets/icons/toque.webp';
+
 
 const listImages = [
   {img: Etape1, alt: 'Photo de la démolition côté tour des minimes'},

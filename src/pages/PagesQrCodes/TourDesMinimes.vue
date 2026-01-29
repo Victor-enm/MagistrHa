@@ -47,6 +47,9 @@
         <p>Dès 1918, toutes les exécutions capitales bordelaises ont lieu dans la cour du fort du Hâ. Six hommes y sont guillotinés entre 1918 et 1933. René Pons, parricide, y fut le dernier condamné à mort exécuté, le 21 juin 1960.</p>
     </EncartViolet>
 </section>
+<img
+    :src="Toque" 
+    class="w-8 absolute z-110 rotate-10 ml-75 mt-38" role="presentation" aria-hidden="true" />
 <EtMaintenant 
     BgColor="bg-blanc z-15 rounded-3xl"
     />
@@ -70,6 +73,8 @@ import Etape3 from '@/assets/Images/generales/etape 3.3Intérieur_prison_du_Ha.w
 import Etape4 from '@/assets/Images/generales/etape3.4Vue_aerienne_prison_du_Ha_Cour_appel.webp'
 import Etape5 from '@/assets/Images/generales/etape 3.5.webp'
 import Situation from '@/components/SituationCard.vue';
+import Toque from '@/assets/icons/toque.webp';
+
 
 
 const cardsPersonnage1 = [
