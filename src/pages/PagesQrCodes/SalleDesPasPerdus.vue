@@ -37,9 +37,7 @@
     <ImageViolet
     :img="Archipel"
     alt="Photo du deuxième site Bordelais 'Archipel'"
-    /><img
-    :src="Toque" 
-    class="w-4 absolute z-100 rotate-10 ml-75 -mt-5" role="presentation" aria-hidden="true" />
+    />
 
     <p>À Montreuil, le site Arborial, offre des espaces de formation modernes, spacieux et adaptés pour la formation continue, et la formation des publics spécialisés.</p>
 
@@ -68,8 +66,6 @@ import Etape2 from '@/assets/Images/generales/etape 7.3.webp';
 import Etape3 from '@/assets/Images/generales/etape 7.4.webp';
 import Etape4 from '@/assets/Images/generales/etape 7.5.webp';
 import Situation from '@/components/SituationCard.vue';
-import Toque from '@/assets/icons/toque.webp';
-
 
 const timeline = [
   { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité.&nbsp;' },

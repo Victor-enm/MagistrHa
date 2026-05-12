@@ -50,9 +50,7 @@
       :img="SimoneVeil"
       alt="Photo de Simone Veil"
       />
-      <img
-    :src="Toque" 
-    class="w-8 absolute top-6 rotate-45 left-56 -z-1" role="presentation" aria-hidden="true" />
+      
       <p>Déportée à 16 ans à Auschwitz-Birkenau, Simone Veil survit aux camps de concentration avant de réussir le concours de la magistrature en 1956.</p>
       <p>Elle entame alors une brillante carrière de haut fonctionnaire, marquée par son engagement : inspectrice de l’administration pénitentiaire, elle lutte pour améliorer les conditions de vie des détenues en France et en Algérie.</p>
 
@@ -76,7 +74,5 @@ import Banner from '@/assets/Images/banner/Amphi.webp';
 import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp';
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Situation from '@/components/SituationCard.vue';
-import Toque from '@/assets/icons/toque.webp'
-
 
 </script>

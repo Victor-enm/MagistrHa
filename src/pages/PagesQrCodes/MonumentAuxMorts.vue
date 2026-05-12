@@ -14,9 +14,7 @@
         <h1>Le fort du Hâ, lieu de la répression durant l’Occupation à Bordeaux&nbsp;</h1>
             <p>L’occupation allemande durant la Seconde Guerre mondiale marque un épisode sombre de l’histoire de la prison du Hâ qui fut utilisée comme lieu de détention, d’interrogatoire et de torture par la police allemande à Bordeaux entre 1940 et 1945.&nbsp;</p>
             <p>De nombreux résistantes et résistants y furent emprisonnés avant d’être déportés vers les camps de concentration, ou fusillés au camp de Souge, près de Bordeaux.  On y retrouve&nbsp;: </p>
-             <img
-    :src="Toque" 
-    class="w-4 absolute z-100 rotate-10 ml-2 mt-14.5" role="presentation" aria-hidden="true" />
+             
             <ScrollHorizontal>
               <CardPersonnage v-for="(item, i) in cardsPersonnage1" :key="'a'+i" :nom="item.nom" :date="item.date" :img="item.img"  :alt="item.alt"/>
             </ScrollHorizontal>
@@ -72,8 +70,6 @@ import Republicains from '@/assets/Images/Portraits/Republicains.webp'
 import Opposants from '@/assets/Images/Portraits/Opposants.webp'
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Situation from '@/components/SituationCard.vue';
-import Toque from '@/assets/icons/toque.webp';
-
 
 
 const cardsPersonnage1 = [

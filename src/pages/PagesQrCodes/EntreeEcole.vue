@@ -24,9 +24,7 @@
     <section class="content bg-gris-1 -mt-4 pb-15 pt-12 py-8 px-5 z-5 relative border border-blanc">
         <h2>Un site emblématique devenu un symbole de justice</h2>
         <p>Aujourd’hui, les vestiges du fort du Hâ s’intègrent dans un ensemble architectural audacieux où coexistent trois institutions majeures de la justice bordelaise :</p>
-        <img
-    :src="Toque" 
-    class="w-4 absolute z-100 rotate-10 ml-2 mt-14.5" role="presentation" aria-hidden="true" /><div class="py-6"><TimeLine
+        <div class="py-6"><TimeLine
       v-for="(item, index) in timeline"
       :key="index"
       :titre="item.titre"
@@ -83,8 +81,6 @@ import Etape6 from '@/assets/Images/generales/etape 1.6.webp';
 import CardImage from '@/components/CardImage.vue';
 import Situation from '@/components/SituationCard.vue';
 import Bouton from '@/components/BoutonRouge.vue';
-import Toque from '@/assets/icons/toque.webp';
-
 
 const timeline = [
   { titre: 'Cour d’appel', description: 'La cour d’appel de Bordeaux, installée dans un palais de justice néoclassique conçu par Joseph-Adolphe Thiac au milieu du XIXe siècle.', img: CourDappel },
