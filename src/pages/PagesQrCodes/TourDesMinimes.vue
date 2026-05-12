@@ -47,9 +47,6 @@
         <p>Dès 1918, toutes les exécutions capitales bordelaises ont lieu dans la cour du fort du Hâ. Six hommes y sont guillotinés entre 1918 et 1933. René Pons, parricide, y fut le dernier condamné à mort exécuté, le 21 juin 1960.</p>
     </EncartViolet>
 </section>
-<img
-    :src="Toque" 
-    class="w-8 absolute z-110 rotate-10 ml-75 mt-38" role="presentation" aria-hidden="true" />
 <EtMaintenant 
     BgColor="bg-blanc z-15 rounded-3xl"
     />
@@ -65,7 +62,7 @@ import Minimes from '@/assets/Images/banner/Minimes.webp'
 import Prison from '@/assets/Images/generales/Prison.webp'
 import BulletFleche from '@/components/BulletFleche.vue'
 import CardPersonnage from '@/components/CardPersonnage.vue'
-import Napoleon from '@/assets/Images/Portraits/Prince-Louis-Napoleon-Bonaparte.webp'
+import Napoleon from '@/assets/Images/Portraits/Louis_Bonaparte.webp'
 import EtMaintenant from '@/components/EtMaintenant.vue'
 import Etape1 from '@/assets/Images/generales/etape_3.1Carte_postale_la_prison_du_Ha.webp'
 import Etape2 from '@/assets/Images/generales/etape 3.2.webp'
@@ -73,8 +70,6 @@ import Etape3 from '@/assets/Images/generales/etape 3.3Intérieur_prison_du_Ha.w
 import Etape4 from '@/assets/Images/generales/etape3.4Vue_aerienne_prison_du_Ha_Cour_appel.webp'
 import Etape5 from '@/assets/Images/generales/etape 3.5.webp'
 import Situation from '@/components/SituationCard.vue';
-import Toque from '@/assets/icons/toque.webp';
-
 
 
 const cardsPersonnage1 = [
@@ -85,7 +80,7 @@ const cardsPersonnage1 = [
 const cardsPersonnage2 = [
   { nom: 'Édouard Daladier', img: Edouard, alt: 'Photo ou illustration de Édouard Daladier', date: '1884 - 1970'},
   { nom: 'Georges Mandel', img: George, alt: 'Photo ou illustration de Georges Mandel', date: '1885 - 1944'},
-  { nom: 'Prince Louis Napoléon Bonaparte', img: Napoleon, alt: 'Photo ou illustration de Louis Napoléon Bonaparte', date: '1856 - 1879'},
+  { nom: 'Louis Bonaparte', img: Napoleon, alt: 'Photo ou illustration de Louis Napoléon Bonaparte', date: '1926 - 1997'},
 ]
 
 const listImages = [
