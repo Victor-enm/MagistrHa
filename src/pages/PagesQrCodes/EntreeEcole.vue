@@ -12,6 +12,7 @@
         etape="01/07"
         />
         <h1>Plongez au cœur de l’histoire et de la justice&nbsp;!</h1>
+        <AudioPlayer src="/src/assets/audio/etape1Entree.mp3" />
             <p>Saviez-vous qu’au sein des vestiges du fort du Hâ, en plein centre de Bordeaux, se trouve une institution unique en France ? Depuis 1958, l’École nationale de la magistrature, grande École de la République, forme l’ensemble des juges et procureurs français dans ce lieu chargé d’histoire.</p>
             <h2>1456</h2>
             <p>L’histoire du site débute au XVe siècle : c’est en 1456, sur ordre du roi Charles VII, que commence la construction du fort du Hâ, une imposante forteresse destinée à défendre la ville après la fin de la guerre de Cent Ans.&nbsp;</p>
@@ -81,6 +82,7 @@ import Etape6 from '@/assets/Images/generales/etape 1.6.webp';
 import CardImage from '@/components/CardImage.vue';
 import Situation from '@/components/SituationCard.vue';
 import Bouton from '@/components/BoutonRouge.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue';
 
 const timeline = [
   { titre: 'Cour d’appel', description: 'La cour d’appel de Bordeaux, installée dans un palais de justice néoclassique conçu par Joseph-Adolphe Thiac au milieu du XIXe siècle.', img: CourDappel },
