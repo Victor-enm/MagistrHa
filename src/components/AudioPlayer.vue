@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center mt-6">
+  <div class="flex flex-col justify-center mt-6">
     <div
       class="inline-flex items-center justify-center px-6 py-3 bg-violet-1 text-violet-3 p-4 border-violet-3 border-solid border-2 rounded-2xl mb-2 text-base gap-3"
       :class="additionalClasses"
@@ -74,6 +74,9 @@
         @ended="onEnded"
       ></audio>
     </div>
+    <p class="text-sm font-MtItalic text-center -m-1">
+      Votre visite est disponible en audiodescription.
+    </p>
   </div>
 </template>
 

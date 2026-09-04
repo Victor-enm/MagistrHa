@@ -12,6 +12,7 @@
         etape="03/07"
         />
         <h1>Une tour médiévale au cœur de Bordeaux</h1>
+        <AudioPlayer :src="Audio" />
             <p>Pendant l’Ancien Régime, le fort sert à la fois de résidence aux gouverneurs et de prison. Il incarne l’autorité royale, souvent contestée par les Bordelais, et la répression dont ils sont victimes. Théâtre d’événements dramatiques, le fort, qui accueille principalement les troupes royales, devient rapidement une prison redoutée.</p>
             <p>Au XVIII<sup>e</sup> siècle, l’emprisonnement reste une peine secondaire&nbsp;: les geôles sont surtout un lieu de passage vers la torture ou l’exécution publique. Dès 1790, le Fort du Hâ regroupe&nbsp;:</p>
             <BulletFleche class="mt-2">Maison d’arrêt</BulletFleche>
@@ -69,7 +70,9 @@ import Etape2 from '@/assets/Images/generales/etape 3.2.webp'
 import Etape3 from '@/assets/Images/generales/etape 3.3Intérieur_prison_du_Ha.webp'
 import Etape4 from '@/assets/Images/generales/etape3.4Vue_aerienne_prison_du_Ha_Cour_appel.webp'
 import Etape5 from '@/assets/Images/generales/etape 3.5.webp'
-import Situation from '@/components/SituationCard.vue';
+import Situation from '@/components/SituationCard.vue'
+import AudioPlayer from '@/components/AudioPlayer.vue'
+import Audio from '@/assets/audio/etape3Minimes.mp3';
 
 
 const cardsPersonnage1 = [
