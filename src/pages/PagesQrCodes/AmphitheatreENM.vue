@@ -12,6 +12,7 @@
         etape="06/07"
         />
         <h1>Amphithéâtre Simone Veil&nbsp;: L'héritage d'une femme d'exception au cœur de la formation</h1>
+        <AudioPlayer :src="Audio" />
             <p>Intégrer l’ENM, c’est s’engager dans une formation exigeante, enrichie de fortes expériences humaines. Les formations, initiales ou continues, sont conçues de façon transversale pour développer et renforcer les compétences des magistrats, quelle que soit leur fonction. La pédagogie privilégie d’abord les savoirs communs, permettant d’apprendre à être magistrat avant de se spécialiser.</p>
             <p>L’enseignement combine divers formats complémentaires qui apprennent à maîtriser l’application de la loi&nbsp;: </p>
             <BulletFleche class="mt-2">Cours en petits groupes sur de vrais dossiers</BulletFleche>
@@ -74,5 +75,7 @@ import Banner from '@/assets/Images/banner/Amphi.webp';
 import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp';
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Situation from '@/components/SituationCard.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue'
+import Audio from '@/assets/audio/etape7SimoneVeil.mp3';
 
 </script>
