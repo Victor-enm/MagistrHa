@@ -12,6 +12,7 @@
         etape="07/07"
         />
         <h1>La salle des pas perdus&nbsp;: un lieu de rencontres, d’échanges et de débats</h1>
+        <AudioPlayer :src="Audio" />
             <p>L’ENM est l’unique école de formation des magistrats de l’ordre judiciaire français, assurant la formation initiale des élèves magistrats et des publics spécialisés, ainsi que la formation continue des magistrats en exercice et de magistrats étrangers dans le cadre de coopérations.</p>
           <div class="py-6"><TimeLine
       v-for="(item, index) in timeline"
@@ -66,6 +67,8 @@ import Etape2 from '@/assets/Images/generales/etape 7.3.webp';
 import Etape3 from '@/assets/Images/generales/etape 7.4.webp';
 import Etape4 from '@/assets/Images/generales/etape 7.5.webp';
 import Situation from '@/components/SituationCard.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue'
+import Audio from '@/assets/audio/etape6Salle.mp3';
 
 const timeline = [
   { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité.&nbsp;' },

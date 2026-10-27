@@ -12,6 +12,7 @@
         etape="02/07"
         />
         <h1>Le fort du Hâ, témoin de l’histoire bordelaise</h1>
+        <AudioPlayer :src="Audio" />
             <p>La construction du fort du Hâ débute le 24 janvier 1456, à la suite de la victoire décisive de Charles VII sur les Anglais lors de la bataille de Castillon, qui met fin à la guerre de Cent Ans et marque le départ définitif des Anglais du duché d’Aquitaine.</p>
             <p>Bordeaux, longtemps favorable à l’Angleterre, est alors reprise par les Français, et le roi Charles VII (dit le Victorieux) ordonne l’édification de deux forteresses pour contrôler la ville et prévenir toute nouvelle attaque extérieure : le château Trompette au nord de la ville (actuelle place des Quinconces) et le fort du Hâ au sud-ouest.</p>
             <CardPersonnage
@@ -71,6 +72,8 @@ import EtMaintenant from '@/components/EtMaintenant.vue';
 import Etape2 from '@/assets/Images/generales/etape 2.1.webp';
 import Etape3 from '@/assets/Images/generales/etape 2.2.webp';
 import Situation from '@/components/SituationCard.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue';
+import Audio from '@/assets/audio/etape2TourSorciere.mp3';
 
 const listImages = [
   {img: Sorciere, alt: 'Zoom sur la tour des sorcières'},

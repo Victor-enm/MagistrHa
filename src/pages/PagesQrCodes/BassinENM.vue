@@ -12,6 +12,7 @@
         etape="05/07"
         />
         <h1>L’installation de l’ENM à Bordeaux. La fin d’une prison vétuste</h1>
+        <AudioPlayer :src="Audio" />
             <p>Dans les années 1960, la politique pénitentiaire vise à éloigner les maisons d’arrêt des centres-villes au profit de nouveaux établissements en périphérie. </p>
             <p>Bordeaux suit cette tendance&nbsp;: en juin 1967, les détenus du fort du Hâ sont transférés à la nouvelle prison de Gradignan, marquant la fin de la prison de Thiac, jugée vétuste et surpeuplée. </p>
             <p>Sur cet espace libéré, l’État décide d’implanter le Centre national d’études judiciaires, qui deviendra l’École nationale de la magistrature (ENM) en 1972.</p>
@@ -110,6 +111,8 @@ import Etape2 from '@/assets/Images/generales/etape 5.2.webp';
 import Etape3 from '@/assets/Images/generales/etape5.3.webp';
 import Etape4 from '@/assets/Images/generales/etape 5.4.webp';
 import Situation from '@/components/SituationCard.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue';
+import Audio from '@/assets/audio/etape5Bassin.mp3';
 
 const listImages = [
   {img: Etape1, alt: 'Photo de la démolition côté tour des minimes'},
