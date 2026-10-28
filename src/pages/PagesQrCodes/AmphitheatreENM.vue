@@ -77,6 +77,6 @@ import SimoneVeil from '@/assets/Images/Portraits/Simone Veil.webp';
 import EtMaintenant from '@/components/EtMaintenant.vue';
 import Situation from '@/components/SituationCard.vue';
 import AudioPlayer from '@/components/AudioPlayer.vue'
-import Audio from '@/assets/audio/etape7SimoneVeil.mp3';
+import Audio from '@/assets/audio/etape7SimoneVeil2.mp3';
 
 </script>

@@ -68,7 +68,7 @@ import Etape3 from '@/assets/Images/generales/etape 7.4.webp';
 import Etape4 from '@/assets/Images/generales/etape 7.5.webp';
 import Situation from '@/components/SituationCard.vue';
 import AudioPlayer from '@/components/AudioPlayer.vue'
-import Audio from '@/assets/audio/etape6Salle.mp3';
+import Audio from '@/assets/audio/etape6Salle2.mp3';
 
 const timeline = [
   { titre: '1958', description: 'L’École nationale de la magistrature (ENM), créée en 1958 sous le nom de Centre national d’études judiciaires, répond à la volonté de professionnaliser et d’uniformiser la formation des juges et procureurs pour garantir une justice indépendante et de qualité.&nbsp;' },
